@@ -2387,8 +2387,8 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   </widgets>
   <revision>
     <username>aaronadm@10.10.8.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1764227011.75</time>
+    <description>/api/zabbixagent/settings/set made changes</description>
+    <time>1764227463.39</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -4179,7 +4179,7 @@ b7f0294f929601cf4503f38ce8a4a100
       </server>
     </wireguard>
     <DHCRelay version="1.0.1"/>
-    <ZabbixAgent version="1.2.4" persisted_at="1763388583.44" description="Zabbix monitoring agent">
+    <ZabbixAgent version="1.2.4" persisted_at="1764227463.39" description="Zabbix monitoring agent">
       <local>
         <hostname>opnsense</hostname>
       </local>
