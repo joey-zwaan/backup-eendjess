@@ -2529,8 +2529,8 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   </widgets>
   <revision>
     <username>aaronadm@2a02:1802:bf:1100:2cae:65fc:8e6e:34a</username>
-    <description>/api/unbound/settings/toggleForward/d53913e0-adfe-42e7-a965-a8fbbb0c11b6 made changes</description>
-    <time>1764599285.38</time>
+    <description>/api/unbound/settings/setForward/d53913e0-adfe-42e7-a965-a8fbbb0c11b6 made changes</description>
+    <time>1764599296.31</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3615,7 +3615,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12" persisted_at="1764599285.38" description="Unbound configuration">
+    <unboundplus version="1.0.12" persisted_at="1764599296.31" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3714,7 +3714,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <forward_first>1</forward_first>
-          <description>wc.ad.eendjesshop.be</description>
+          <description>wc2.ad.eendjesshop.be</description>
         </dot>
       </dots>
       <hosts>
