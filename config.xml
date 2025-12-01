@@ -1731,6 +1731,33 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="8a1e244f-a9b4-4cf5-a384-ae0719cdbaa2">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Ping regel om te troubleshooten IPV6</descr>
+      <direction>in</direction>
+      <category>Ping Regels</category>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>tymoadm@10.10.8.3</username>
+        <time>1762327925.6555</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760537378.8721</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="a9f9ecc8-7fc4-4bb8-8689-b2e9bcdb0c8f">
       <type>pass</type>
       <interface>lan</interface>
@@ -1782,33 +1809,6 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
       <created>
         <username>maximadm@192.168.200.140</username>
         <time>1764581890.69</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="8a1e244f-a9b4-4cf5-a384-ae0719cdbaa2">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Ping regel om te troubleshooten IPV6</descr>
-      <direction>in</direction>
-      <category>Ping Regels</category>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762327925.6555</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537378.8721</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2498,7 +2498,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>maximadm@192.168.200.140</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1764581941.49</time>
+    <time>1764581951.14</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
