@@ -1768,15 +1768,15 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network>lan</network>
       </source>
       <destination>
         <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
         <port>80</port>
       </destination>
       <updated>
-        <username>maximadm@192.168.200.140</username>
-        <time>1764581847.66</time>
+        <username>aaronadm@2a02:1802:bf:1100:8009:de4a:9290:b47b</username>
+        <time>1764584154.85</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2496,9 +2496,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>tymoadm@10.10.8.5</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1764584129.65</time>
+    <username>aaronadm@2a02:1802:bf:1100:8009:de4a:9290:b47b</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1764584155.05</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
