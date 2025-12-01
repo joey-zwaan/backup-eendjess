@@ -1811,6 +1811,33 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9014cdb3-d126-468b-8f46-e100045d02b0">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>HTTPS in LAN voor Vault</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>maximadm@192.168.200.140</username>
+        <time>1764581890.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>maximadm@192.168.200.140</username>
+        <time>1764581890.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d94f7ff5-85d5-470e-b798-709023bee0e0">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -2471,7 +2498,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>maximadm@192.168.200.140</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1764581847.82</time>
+    <time>1764581890.92</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
