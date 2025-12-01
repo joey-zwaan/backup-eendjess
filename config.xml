@@ -2520,9 +2520,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>tymoadm@192.168.200.175</username>
-    <description>/api/trust/ca/add/ made changes</description>
-    <time>1764586207.10</time>
+    <username>aaronadm@2a02:1802:bf:1100:e4b3:c55d:cedf:f31b</username>
+    <description>/api/unbound/settings/set_host_override/386d59d2-9f94-4dee-846e-c0aacc1a9971 made changes</description>
+    <time>1764589997.03</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3586,7 +3586,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12" persisted_at="1763421348.28" description="Unbound configuration">
+    <unboundplus version="1.0.12" persisted_at="1764589997.03" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3727,13 +3727,13 @@ b7f0294f929601cf4503f38ce8a4a100
         </host>
         <host uuid="386d59d2-9f94-4dee-846e-c0aacc1a9971">
           <enabled>1</enabled>
-          <hostname>volt</hostname>
+          <hostname>vault</hostname>
           <domain>eendjesshop.be</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
-          <ttl/>
-          <server>192.168.200.186</server>
+          <ttl>60</ttl>
+          <server>192.168.200.192</server>
           <txtdata/>
           <description>Voltwarden</description>
         </host>
