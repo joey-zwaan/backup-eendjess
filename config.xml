@@ -357,7 +357,7 @@
       <priv/>
       <language/>
       <descr>***</descr>
-      <dashboard/>
+      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjUyNywid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjAsImgiOjExMywid2lkZ2V0IjpbXSwidyI6bnVsbH0seyJpZCI6ImRpc2siLCJtaW5XIjoxLCJ4IjozLCJ5IjowLCJoIjoxMTMsIndpZGdldCI6W10sInciOm51bGx9LHsiaWQiOiJpbnRlcmZhY2VzdGF0aXN0aWNzIiwibWluVyI6MiwieCI6NCwieSI6MCwidyI6NCwiaCI6Mjg0LCJ3aWRnZXQiOltdfSx7ImlkIjoiZmlyZXdhbGwiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjowLCJ3Ijo0LCJoIjoyODQsIndpZGdldCI6W119LHsiaWQiOiJnYXRld2F5cyIsIm1pblciOjIsIngiOjIsInkiOjExMywic2l6ZVRvQ29udGVudCI6NjUwLCJoIjoyMzMsIndpZGdldCI6eyJnYXRld2F5cyI6WyJXQU5fREhDUDYiLCJXQU5fREhDUCJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6NCwieSI6Mjg0LCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjY1MCwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjoyODQsInciOjQsImgiOjQ0Niwid2lkZ2V0Ijp7ImludGVyZmFjZXMiOlsibGFuIiwid2FuIl19fSx7ImlkIjoiYW5ub3VuY2VtZW50cyIsIm1pblciOjIsIngiOjIsInkiOjM0Niwic2l6ZVRvQ29udGVudCI6MzUwLCJoIjozNTAsIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJjcHUiLCJtaW5XIjoyLCJ4IjowLCJ5Ijo1MjcsImgiOjE3OCwid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6ImludGVyZmFjZXMiLCJtaW5XIjoyLCJzaXplVG9Db250ZW50Ijo2NTAsIngiOjIsInkiOjY5NiwiaCI6NDI3LCJ3aWRnZXQiOltdLCJ3IjoyfV19</dashboard>
     </user>
     <user uuid="110823dc-1e6a-40be-9e08-f3d9d942d71b">
       <uid>2009</uid>
@@ -2386,9 +2386,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>maximadm@10.10.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1764575613.57</time>
+    <username>nicolasadm@10.10.8.5</username>
+    <description>/api/core/dashboard/save_widgets made changes</description>
+    <time>1764575616.72</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
