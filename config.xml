@@ -622,7 +622,7 @@
       <name>AD-LDAP</name>
       <host>192.168.200.2</host>
       <ldap_port>389</ldap_port>
-      <ldap_urltype>TCP - Standard</ldap_urltype>
+      <ldap_urltype>StartTLS</ldap_urltype>
       <ldap_protver>3</ldap_protver>
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=ad,DC=eendjesshop,DC=be</ldap_basedn>
@@ -2522,7 +2522,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>tymoadm@2a02:1802:bf:1100:dd3c:8886:385b:68e2</username>
     <description>/system_authservers.php made changes</description>
-    <time>1764590696.10</time>
+    <time>1764590731.04</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
