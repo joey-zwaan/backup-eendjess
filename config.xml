@@ -630,7 +630,7 @@
       <ldap_extended_query/>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=Tymo.Adm,OU=ITDienstEendjesshop,OU=Eendjesshop.be,DC=ad,DC=eendjesshop,DC=be</ldap_binddn>
-      <ldap_bindpw>Sadef1234test</ldap_bindpw>
+      <ldap_bindpw>Sadef12345test</ldap_bindpw>
       <ldap_sync_memberof_groups/>
       <caseInSensitiveUsernames/>
       <ldap_sync_default_groups/>
@@ -2496,9 +2496,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>maximadm@192.168.200.140</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1764581951.14</time>
+    <username>tymoadm@10.10.8.5</username>
+    <description>/system_authservers.php made changes</description>
+    <time>1764583145.33</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
