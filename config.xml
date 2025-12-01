@@ -1217,12 +1217,12 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
         <any>1</any>
       </source>
       <destination>
-        <address>2a02:1802:bf:1900:cc36:7f41:f842:7e14/64</address>
+        <address>2a02:1802:bf:1100:cc36:7f41:f842:7e14/64</address>
         <port>443</port>
       </destination>
       <updated>
-        <username>maximadm@10.10.8.3</username>
-        <time>1764165654.05</time>
+        <username>maximadm@10.10.8.2</username>
+        <time>1764575602.52</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2386,9 +2386,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>nicolasadm@10.10.8.5</username>
-    <description>/api/firewall/alias/set_item/25463511-2e3a-445d-9f6b-504194a5c1d2 made changes</description>
-    <time>1764575490.48</time>
+    <username>maximadm@10.10.8.2</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1764575602.78</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
