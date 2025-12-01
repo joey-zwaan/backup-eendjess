@@ -2529,8 +2529,8 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   </widgets>
   <revision>
     <username>tymoadm@2a02:1802:bf:1100:79f3:6ccd:4a63:4a8b</username>
-    <description>/api/unbound/settings/del_host_override/8f3a99b3-4dc6-4df8-9868-cfc64330f42f made changes</description>
-    <time>1764596939.27</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1764597676.47</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2726,7 +2726,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1764576025.53" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1764597676.47" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -3065,6 +3065,25 @@ b7f0294f929601cf4503f38ce8a4a100
             <expire/>
             <categories/>
             <description>Zabbix_Server</description>
+          </alias>
+          <alias uuid="be11d253-b8f9-4594-aea8-3130579bf13d">
+            <enabled>1</enabled>
+            <name>DC</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.200.2
+192.168.200.3
+192.168.200.6</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories>ae27806c-801e-4e95-8659-77a40ce65df8</categories>
+            <description>DC</description>
           </alias>
         </aliases>
       </Alias>
