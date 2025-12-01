@@ -1247,10 +1247,11 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
       </source>
       <destination>
         <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
+        <port>80</port>
       </destination>
       <updated>
         <username>maximadm@10.10.8.2</username>
-        <time>1764577207.74</time>
+        <time>1764577237.89</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2416,7 +2417,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>maximadm@10.10.8.2</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1764577207.96</time>
+    <time>1764577238.13</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
