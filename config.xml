@@ -2529,8 +2529,8 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   </widgets>
   <revision>
     <username>tymoadm@2a02:1802:bf:1100:79f3:6ccd:4a63:4a8b</username>
-    <description>/api/unbound/settings/del_host_override/88c99e2b-005e-4130-939a-276afed054ca made changes</description>
-    <time>1764596925.79</time>
+    <description>/api/unbound/settings/del_host_override/472a01b9-2b29-4577-81aa-f390e859e0e9 made changes</description>
+    <time>1764596928.75</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3594,7 +3594,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12" persisted_at="1764596925.79" description="Unbound configuration">
+    <unboundplus version="1.0.12" persisted_at="1764596928.75" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3708,18 +3708,6 @@ b7f0294f929601cf4503f38ce8a4a100
           <server>192.168.201.2</server>
           <txtdata/>
           <description>No hairpinning!</description>
-        </host>
-        <host uuid="472a01b9-2b29-4577-81aa-f390e859e0e9">
-          <enabled>1</enabled>
-          <hostname>zabbix</hostname>
-          <domain>eendjesshop.be</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <ttl/>
-          <server>192.168.200.180</server>
-          <txtdata/>
-          <description>Zabbix monitoring</description>
         </host>
         <host uuid="386d59d2-9f94-4dee-846e-c0aacc1a9971">
           <enabled>1</enabled>
