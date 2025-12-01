@@ -1260,6 +1260,33 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="1a774d09-b71a-4bce-a8e4-78d18007f202">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Testen met HTTPS</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>maximadm@10.10.8.2</username>
+        <time>1764577287.99</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>maximadm@10.10.8.2</username>
+        <time>1764577287.99</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="7657afd6-0eee-499f-8511-96d33348cc3f">
       <type>pass</type>
       <interface>lan</interface>
@@ -2417,7 +2444,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>maximadm@10.10.8.2</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1764577238.13</time>
+    <time>1764577288.15</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
