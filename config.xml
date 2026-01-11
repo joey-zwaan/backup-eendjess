@@ -2532,7 +2532,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1768086104.71</time>
+    <time>1768172504.61</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3883,7 +3883,7 @@ b7f0294f929601cf4503f38ce8a4a100
       </static>
     </quagga>
     <Gateways version="1.0.0"/>
-    <AcmeClient version="4.3.0" persisted_at="1768086104.71" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1768172504.60" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -3936,7 +3936,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <certRefId/>
           <lastUpdate/>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1768086104</statusLastUpdate>
+          <statusLastUpdate>1768172504</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
