@@ -2550,9 +2550,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.2</username>
+    <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
     <description>/vpn_openvpn_server.php made changes</description>
-    <time>1771936201.47</time>
+    <time>1771936251.07</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
