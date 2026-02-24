@@ -216,7 +216,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>0,2000,2004,2005,2007,2008,2006,2016,2017</member>
+      <member>0,2000,2004,2005,2007,2008,2006,2016,2017,2001</member>
       <source_networks/>
     </group>
     <user uuid="c50df96e-bdb7-476d-9f1a-a56fbaf95e1d">
@@ -655,6 +655,26 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     </backup>
     <disableconsolemenu>1</disableconsolemenu>
     <dhcp6_norelease>yes</dhcp6_norelease>
+    <user uuid="69e8ff2d-148f-477d-9b1d-59e6f095feca">
+      <uid>2001</uid>
+      <name>joey-admin</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys>c2stc3NoLWVkMjU1MTlAb3BlbnNzaC5jb20gQUFBQUduTnJMWE56YUMxbFpESTFOVEU1UUc5d1pXNXpjMmd1WTI5dEFBQUFJUHovbW1USi9jaDVCZ3U3WnBpSVZCM2lNWllJOXBpenVzMFlsOE85OGtOV0FBQUFCSE56YURvPSBqb2V5QGpvZXktbGVub3ZvLXRoaW5rcGFkCkFBQUFDM056YUMxbFpESTFOVEU1QUFBQUlJcGViRGNLRDl4Tkx4VldnMlkvYW12OHczU0NpU3JRUStsL3BmWEZ0SElMCnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tIEFBQUFHbk5yTFhOemFDMWxaREkxTlRFNVFHOXdaVzV6YzJndVkyOXRBQUFBSUhIaGxrWVZraDQrVzhWa2N0a0J5YjJYQ3hSdk5RSVRsT1FxL1hkTnZ1UzBBQUFBQkhOemFEbz0gU2VydmVyLWtleXMK</authorizedkeys>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$zYF3MvAJs.7ieoBKdK/iVe1LEeGkj7UxRcirtIpFpl6Dh2GEjLRK2</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email>joey-zwaan@pm.me</email>
+      <apikeys/>
+      <priv>page-all</priv>
+      <language/>
+      <descr>Joey</descr>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -2530,9 +2550,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1771887607.49</time>
+    <username>rootvandeneend@192.168.200.106</username>
+    <description>user "joey-admin" created</description>
+    <time>1771933213.26</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
