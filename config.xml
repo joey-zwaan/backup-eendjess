@@ -684,7 +684,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
       <authorizedkeys/>
       <otp_seed/>
       <shell/>
-      <password>$2y$11$YWZ7c6WETBz4K6qaY2TMOu492L25jx7uM71fEnREb3YXXQhfeDnom</password>
+      <password>$2y$11$09iV6yorjQ.2jLY6g87El.sp9IQ/VNRDT3AGIFxgntFj2INjamfmu</password>
       <pwd_changed_at/>
       <landing_page/>
       <comment/>
@@ -2572,7 +2572,7 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
   <revision>
     <username>rootvandeneend@2a02:a03f:eac9:b01:a00b:c52:29c1:640c</username>
     <description>user "kenneth-admin" changed</description>
-    <time>1772137254.78</time>
+    <time>1772137566.84</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
