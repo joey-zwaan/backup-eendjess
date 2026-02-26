@@ -695,6 +695,26 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
       <descr>Kenneth Jacquart</descr>
       <dashboard/>
     </user>
+    <user uuid="7f0c6a40-ec3c-42e9-9cbf-7dfc130024b6">
+      <uid>2003</uid>
+      <name>stijn-admin</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$4HTKZf.wXNB0KLDqskmehOrcaEqiGMj1KnR8PYxzMhJaQsal8mXfC</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv/>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -2570,9 +2590,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>rootvandeneend@2a02:a03f:eac9:b01:a00b:c52:29c1:640c</username>
-    <description>user "kenneth-admin" changed</description>
-    <time>1772137870.08</time>
+    <username>joey-admin@10.10.8.2</username>
+    <description>user "stijn-admin" created</description>
+    <time>1772138017.79</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
