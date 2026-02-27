@@ -2590,9 +2590,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.2</username>
-    <description>/vpn_openvpn_server.php made changes</description>
-    <time>1772189532.62</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1772233206.71</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3943,7 +3943,7 @@ b7f0294f929601cf4503f38ce8a4a100
       </static>
     </quagga>
     <Gateways version="1.0.0"/>
-    <AcmeClient version="4.3.0" persisted_at="1772146806.44" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1772233206.71" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -3996,7 +3996,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <certRefId/>
           <lastUpdate/>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1772146806</statusLastUpdate>
+          <statusLastUpdate>1772233206</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
