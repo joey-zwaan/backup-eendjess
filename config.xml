@@ -568,7 +568,7 @@
       <authorizedkeys/>
       <otp_seed/>
       <shell/>
-      <password>$2y$11$xIOZsLs5nEyXholIhrK7wefWmwq/Mp4owYjPlTR/PUTmYZ2ydI266</password>
+      <password>$2y$11$lKAh6Klu1VGa3RUxhQCcsO4feEwUe2I0uUipowh9YWgozrvRBHMH.</password>
       <pwd_changed_at/>
       <landing_page/>
       <comment/>
@@ -2590,9 +2590,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>kenneth-admin@2a02:a03f:eac9:b01:6da9:fca3:dc21:595</username>
+    <username>kenneth-admin@2a02:a03f:eac9:b01:e841:4bcf:69af:f21f</username>
     <description>user "kenneth-admin" changed</description>
-    <time>1772483011.15</time>
+    <time>1772485502.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
