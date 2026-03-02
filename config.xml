@@ -697,9 +697,9 @@
       <ldap_sync_default_groups/>
     </authserver>
     <backup>
-      <git version="1.0.0" persisted_at="1764599515.34" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1772486104.40" description="Git Backup Settings">
         <enabled>1</enabled>
-        <url>ssh://github.com/TymoHeyndrickx/BackUps_OPNsense_1-12-2025.git</url>
+        <url>ssh://github.com:joey-zwaan/backup-eendjesshop.git</url>
         <branch>main</branch>
         <force_push>0</force_push>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
@@ -2590,9 +2590,9 @@ SQiwbiORb8Pcdf1V0w2nAAAACnR5bW9oQFR5bW8BAgM=&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>kenneth-admin@2a02:a03f:eac9:b01:e841:4bcf:69af:f21f</username>
-    <description>user "kenneth-admin" changed</description>
-    <time>1772485502.64</time>
+    <username>joey-admin@10.10.8.2</username>
+    <description>/diag_backup.php made changes</description>
+    <time>1772486104.40</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
