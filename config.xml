@@ -697,7 +697,7 @@
       <ldap_sync_default_groups/>
     </authserver>
     <backup>
-      <git version="1.0.0" persisted_at="1772486662.55" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1772486681.79" description="Git Backup Settings">
         <enabled>1</enabled>
         <url>ssh://github.com/joey-zwaan/backup-eendjess.git</url>
         <branch>main</branch>
@@ -709,7 +709,8 @@ g2Y/amv8w3SCiSrQQ+l/pfXFtHILAAAAoE4D752cGYL+ERMVO0PY0/tHXHXUjKzr+scxJa&#13;
 EcvjwSqEYdzp6hndlv5t7N6VqEjHGxb101D3kIopNr2co4GMvWGvUPCIwyV0N7aQV1sXpx&#13;
 GTc2ND28YR1R4RXHsSw31QW7vqdiutbRnlgPUrQhqp5qJGESA1oYnJY8Lj8i6eFZ117IdA&#13;
 2XS7kOquyl9VUpvOnSDPhmbq7aHsbJsdmJ0+I=&#13;
------END OPENSSH PRIVATE KEY-----</privkey>
+-----END OPENSSH PRIVATE KEY-----&#13;
+</privkey>
         <user>git</user>
         <password/>
       </git>
@@ -2593,7 +2594,7 @@ GTc2ND28YR1R4RXHsSw31QW7vqdiutbRnlgPUrQhqp5qJGESA1oYnJY8Lj8i6eFZ117IdA&#13;
   <revision>
     <username>joey-admin@10.10.8.2</username>
     <description>/diag_backup.php made changes</description>
-    <time>1772486662.55</time>
+    <time>1772486681.79</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
