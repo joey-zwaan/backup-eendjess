@@ -714,7 +714,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <password/>
       </git>
     </backup>
-    <disableconsolemenu>1</disableconsolemenu>
     <dhcp6_norelease>yes</dhcp6_norelease>
   </system>
   <interfaces>
@@ -2591,9 +2590,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.2</username>
-    <description>/api/unbound/settings/setForward/723ab905-e09a-400f-a188-0fa0acbcc220 made changes</description>
-    <time>1772624438.19</time>
+    <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1772634157.43</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
