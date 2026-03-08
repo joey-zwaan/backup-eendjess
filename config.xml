@@ -259,26 +259,6 @@
       <descr>John Dearheart</descr>
       <dashboard/>
     </user>
-    <user uuid="c04c530f-de29-44fc-9286-4f01dce0bdce">
-      <uid>2008</uid>
-      <name>nicolasadm</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell>/bin/tcsh</shell>
-      <password>$2y$10$slTVJJKbwBHO4hW40Zi60OlEK9dnQS85Xxn1Nz7/1JtUmAySfzUWC</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment>***</comment>
-      <email>****</email>
-      <apikeys/>
-      <priv/>
-      <language/>
-      <descr>***</descr>
-      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjUyNywid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjAsImgiOjExMywid2lkZ2V0IjpbXSwidyI6bnVsbH0seyJpZCI6ImRpc2siLCJtaW5XIjoxLCJ4IjozLCJ5IjowLCJoIjoxMTMsIndpZGdldCI6W10sInciOm51bGx9LHsiaWQiOiJpbnRlcmZhY2VzdGF0aXN0aWNzIiwibWluVyI6MiwieCI6NCwieSI6MCwidyI6NCwiaCI6Mjg0LCJ3aWRnZXQiOltdfSx7ImlkIjoiZmlyZXdhbGwiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjowLCJ3Ijo0LCJoIjoyODQsIndpZGdldCI6W119LHsiaWQiOiJnYXRld2F5cyIsIm1pblciOjIsIngiOjIsInkiOjExMywic2l6ZVRvQ29udGVudCI6NjUwLCJoIjoyMzMsIndpZGdldCI6eyJnYXRld2F5cyI6WyJXQU5fREhDUDYiLCJXQU5fREhDUCJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6NCwieSI6Mjg0LCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjY1MCwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjoyODQsInciOjQsImgiOjQ0Niwid2lkZ2V0Ijp7ImludGVyZmFjZXMiOlsibGFuIiwid2FuIl19fSx7ImlkIjoiYW5ub3VuY2VtZW50cyIsIm1pblciOjIsIngiOjIsInkiOjM0Niwic2l6ZVRvQ29udGVudCI6MzUwLCJoIjozNTAsIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJjcHUiLCJtaW5XIjoyLCJ4IjowLCJ5Ijo1MjcsImgiOjE3OCwid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6ImludGVyZmFjZXMiLCJtaW5XIjoyLCJzaXplVG9Db250ZW50Ijo2NTAsIngiOjIsInkiOjY5NiwiaCI6NDI3LCJ3aWRnZXQiOltdLCJ3IjoyfV19</dashboard>
-    </user>
     <user uuid="110823dc-1e6a-40be-9e08-f3d9d942d71b">
       <uid>2009</uid>
       <name>chelsey</name>
@@ -2492,8 +2472,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@2a02:a03f:eac9:b01:955a:1a96:ed50:73aa</username>
-    <description>The user "maximadm" was successfully removed.</description>
-    <time>1773008227.37</time>
+    <description>The user "nicolasadm" was successfully removed.</description>
+    <time>1773008260.99</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
