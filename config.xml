@@ -259,26 +259,6 @@
       <descr>John Dearheart</descr>
       <dashboard/>
     </user>
-    <user uuid="0a17862f-20bd-40d4-8b10-44071a5d4ffa">
-      <uid>2004</uid>
-      <name>samadm</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell>/bin/tcsh</shell>
-      <password>$2y$11$WxoM49K98kZgXJjlkBBquuv84YarcI5s/Pj6XcOZLAgR9mUzs3cgC</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys/>
-      <priv/>
-      <language/>
-      <descr/>
-      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJpbnRlcmZhY2VzIiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6MzcyLCJ4IjowLCJ5IjowLCJoIjozNzIsIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJvcGVudnBuY2xpZW50cyIsIm1pblciOjIsInNpemVUb0NvbnRlbnQiOjUyNywieCI6MiwieSI6MCwiaCI6NTI3LCJ3aWRnZXQiOltdLCJ3IjoyfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjI2MSwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjowLCJ3Ijo0LCJoIjo0NDUsIndpZGdldCI6eyJpbnRlcmZhY2VzIjpbImxhbiIsIndhbiJdfX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6NCwieSI6MjYxLCJ3Ijo0LCJoIjoyNjEsIndpZGdldCI6W119LHsiaWQiOiJjcHUiLCJtaW5XIjoyLCJ4IjowLCJ5IjozNzIsImgiOjE3Nywid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6OCwieSI6NDQ1LCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjY1MCwid2lkZ2V0IjpbXX0seyJpZCI6ImdhdGV3YXlzIiwibWluVyI6MiwieCI6NCwieSI6NTIyLCJzaXplVG9Db250ZW50IjoyMzMsImgiOjIzMywid2lkZ2V0Ijp7ImdhdGV3YXlzIjpbIldBTl9ESENQNiIsIldBTl9ESENQIl19LCJ3IjoyfSx7ImlkIjoic3lzdGVtaW5mb3JtYXRpb24iLCJtaW5XIjoyLCJ4Ijo2LCJ5Ijo1MjIsImgiOjU4MSwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6ImFubm91bmNlbWVudHMiLCJtaW5XIjoyLCJ4IjoyLCJ5Ijo1MjcsInNpemVUb0NvbnRlbnQiOjM1MCwiaCI6MzUwLCJ3aWRnZXQiOltdLCJ3IjoyfSx7ImlkIjoibGl2ZWxvZyIsIm1pblciOjIsIngiOjAsInkiOjU0OSwiaCI6MTU0LCJ3aWRnZXQiOltdLCJ3IjoyfSx7ImlkIjoibWVtb3J5IiwibWluVyI6MSwieCI6MiwieSI6ODc3LCJoIjoxMDcsIndpZGdldCI6W10sInciOm51bGx9LHsiaWQiOiJkaXNrIiwibWluVyI6MSwieCI6MywieSI6ODc3LCJoIjoxMDcsIndpZGdldCI6W10sInciOm51bGx9XX0=</dashboard>
-    </user>
     <user uuid="f67f6b14-4c61-4974-a81c-0f06d55fa77c">
       <uid>2005</uid>
       <name>aaronadm</name>
@@ -2572,8 +2552,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@2a02:a03f:eac9:b01:955a:1a96:ed50:73aa</username>
-    <description>The user "unclewolf" was successfully removed.</description>
-    <time>1773007912.99</time>
+    <description>The user "samadm" was successfully removed.</description>
+    <time>1773008195.20</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
