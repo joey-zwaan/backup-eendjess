@@ -259,26 +259,6 @@
       <descr>John Dearheart</descr>
       <dashboard/>
     </user>
-    <user uuid="41dcb9a2-356a-44f7-adbd-aa63c0bf34dc">
-      <uid>2006</uid>
-      <name>tymoadm</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSU1UNFNQeVlZcmUxZERBMkZDUFJZSmYvaTUzNTdaY254blFTUEY4a3dhamU=</authorizedkeys>
-      <otp_seed/>
-      <shell>/bin/tcsh</shell>
-      <password>$2y$10$IBQuWdcMIIaLtETCjri/xu2cAkaOkEUh7VPCoeNXRfpIRdbuz8G0O</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment>***</comment>
-      <email>***</email>
-      <apikeys/>
-      <priv/>
-      <language/>
-      <descr>***</descr>
-      <dashboard/>
-    </user>
     <user uuid="9e24f382-142e-40b1-a724-60333c91ef89">
       <uid>2007</uid>
       <name>maximadm</name>
@@ -2532,8 +2512,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@2a02:a03f:eac9:b01:955a:1a96:ed50:73aa</username>
-    <description>The user "aaronadm" was successfully removed.</description>
-    <time>1773008201.20</time>
+    <description>The user "tymoadm" was successfully removed.</description>
+    <time>1773008216.75</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
