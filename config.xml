@@ -1237,32 +1237,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="9abfa1f8-7c75-4ef3-98d8-7aa233811805">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>2a02:1802:bf:1100:79be:e66::d6c6/128</address>
-        <port>88</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1773071319.15</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1773071247.96</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="7657afd6-0eee-499f-8511-96d33348cc3f">
       <type>pass</type>
       <interface>lan</interface>
@@ -2523,8 +2497,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1773071319.40</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1773071335.03</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
