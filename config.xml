@@ -1767,7 +1767,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <interface>lan</interface>
       <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
-      <direction>out</direction>
+      <direction>in</direction>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
@@ -1779,7 +1779,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.2</username>
-        <time>1773670291.41</time>
+        <time>1773670329.01</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2523,8 +2523,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.2</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1773670308.05</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1773670329.25</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
