@@ -1762,32 +1762,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="ef43e534-3b68-4d82-a042-7cad62b76d20">
-      <type>reject</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default-Reject</descr>
-      <direction>in</direction>
-      <category>Reject/Block Rule</category>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760534427.222</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
-        <time>1760511535.386</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="fd604aa3-1165-4fde-a04d-b45fd80f16e8">
       <type>pass</type>
       <interface>lan</interface>
@@ -1811,6 +1785,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <created>
         <username>joey-admin@10.10.8.2</username>
         <time>1773670291.41</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="ef43e534-3b68-4d82-a042-7cad62b76d20">
+      <type>reject</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default-Reject</descr>
+      <direction>in</direction>
+      <category>Reject/Block Rule</category>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760534427.222</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
+        <time>1760511535.386</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2523,8 +2523,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1773670291.58</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1773670308.05</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
