@@ -1216,6 +1216,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <time>1760537985.1594</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="9aadfd84-adf0-46c3-a8e8-93cfdf2ddfc9">
       <type>pass</type>
@@ -2631,8 +2632,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1774386392.88</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774386716.07</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
