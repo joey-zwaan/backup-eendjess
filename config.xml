@@ -2628,8 +2628,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@fd00:10:8::1002</username>
-    <description>/api/firewall/category/add_item/ made changes</description>
-    <time>1774352314.60</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1774352437.99</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2825,7 +2825,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1774352213.37" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1774352437.99" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -3236,6 +3236,24 @@ b7f0294f929601cf4503f38ce8a4a100
             <authtype/>
             <expire/>
             <categories/>
+            <description/>
+          </alias>
+          <alias uuid="91b8fbfa-4c22-49f1-be68-571f6f0c2908">
+            <enabled>1</enabled>
+            <name>nextcloud_ports</name>
+            <type>port</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>8080
+8443</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories>c83e1a53-c8af-4dd5-95ff-43b50e7fa199</categories>
             <description/>
           </alias>
         </aliases>
