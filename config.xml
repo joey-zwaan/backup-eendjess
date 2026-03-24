@@ -1341,6 +1341,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="68407d88-1369-4413-8ffd-7a7871cbc25d">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>nextcloud</address>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>joey-admin@10.10.8.2</username>
+        <time>1774362591.35</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.10.8.2</username>
+        <time>1774362497.37</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="7657afd6-0eee-499f-8511-96d33348cc3f">
       <type>pass</type>
       <interface>lan</interface>
@@ -1944,32 +1970,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <created>
         <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
         <time>1760511535.386</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="68407d88-1369-4413-8ffd-7a7871cbc25d">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>nextcloud</address>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1774362591.35</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1774362497.37</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2683,8 +2683,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1774362591.60</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774362625.99</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
