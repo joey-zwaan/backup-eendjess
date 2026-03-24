@@ -827,7 +827,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>tcp/udp</protocol>
+      <protocol>icmp</protocol>
       <source>
         <any>1</any>
       </source>
@@ -836,7 +836,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774385419.66</time>
+        <time>1774385570.91</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2632,7 +2632,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774385419.92</time>
+    <time>1774385571.10</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
