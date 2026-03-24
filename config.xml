@@ -2712,7 +2712,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
     <description>/vpn_openvpn_server.php made changes</description>
-    <time>1774380935.96</time>
+    <time>1774380939.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -4659,7 +4659,6 @@ b7f0294f929601cf4503f38ce8a4a100
       <crlref>690f799f99dab</crlref>
       <certref>68ea60bd3a4f5</certref>
       <cert_depth>1</cert_depth>
-      <disable>1</disable>
     </openvpn-server>
     <openvpn-server>
       <mode>server_tls_user</mode>
