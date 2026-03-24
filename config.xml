@@ -1034,32 +1034,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="3ca65961-69ae-4aab-91bc-560f01fb4a35">
-      <type>block</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Blokkeren van Broadcast verkeer</descr>
-      <direction>in</direction>
-      <category>Reject/Block Rule</category>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>94.72.91.143/28</address>
-      </destination>
-      <updated>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537985.1594</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537985.1594</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="a14ecc78-1595-41e7-8e81-8151305fbc7a">
       <associated-rule-id>nat_6916f87b580bb8.97926415</associated-rule-id>
       <source>
@@ -1215,6 +1189,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <created>
         <username>maximadm@10.10.8.2</username>
         <time>1764577207.74</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="3ca65961-69ae-4aab-91bc-560f01fb4a35">
+      <type>block</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Blokkeren van Broadcast verkeer</descr>
+      <direction>in</direction>
+      <category>Reject/Block Rule</category>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>94.72.91.143/28</address>
+      </destination>
+      <updated>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760537985.1594</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760537985.1594</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2659,8 +2659,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1774382664.64</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774383334.97</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
