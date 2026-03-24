@@ -792,6 +792,37 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <rule>
       <protocol>tcp</protocol>
       <interface>wan</interface>
+      <category>nextcloud_rule</category>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Let's Encrypt</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_69c2aba55aa8c2.05759089</associated-rule-id>
+      <target>192.168.200.102</target>
+      <local-port>80</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>80</port>
+      </destination>
+      <natreflection>purenat</natreflection>
+      <updated>
+        <username>joey-admin@10.10.8.2</username>
+        <time>1774365605.37</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.10.8.2</username>
+        <time>1774365605.37</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr>webserver beschikbaar maken via ipv4/https</descr>
@@ -2626,6 +2657,28 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_69c2aba55aa8c2.05759089</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.200.102</address>
+        <port>80</port>
+      </destination>
+      <descr>Let's Encrypt</descr>
+      <category>nextcloud_rule</category>
+      <created>
+        <username>joey-admin@10.10.8.2</username>
+        <time>1774365605.37</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -2684,8 +2737,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.2</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1774363391.81</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1774365605.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
