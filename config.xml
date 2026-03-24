@@ -2572,7 +2572,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
       <log>1</log>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="ef43e534-3b68-4d82-a042-7cad62b76d20">
       <type>reject</type>
@@ -2659,7 +2658,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>kenneth-admin@fd00:10:8::1002</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774353206.21</time>
+    <time>1774353391.31</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
