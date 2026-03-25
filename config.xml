@@ -557,7 +557,7 @@
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=ad,DC=eendjesshop,DC=be</ldap_basedn>
       <ldap_authcn>CN=Users,DC=ad,DC=eendjesshop,DC=be;OU=ITDienstEendjesshop,OU=Eendjesshop.be,DC=ad,DC=eendjesshop,DC=be</ldap_authcn>
-      <ldap_extended_query>(memberOf=CN=OPNsense-Admins,CN=Users,DC=ad,DC=eendjesshop,DC=be)</ldap_extended_query>
+      <ldap_extended_query/>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=svc-ldap,CN=Users,DC=ad,DC=eendjesshop,DC=be</ldap_binddn>
       <ldap_bindpw>OPNsense2026</ldap_bindpw>
@@ -2652,7 +2652,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/system_authservers.php made changes</description>
-    <time>1774442153.18</time>
+    <time>1774442283.02</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
