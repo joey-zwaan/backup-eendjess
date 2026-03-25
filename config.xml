@@ -216,7 +216,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>0,2000,2004,2005,2007,2008,2006,2016,2017,2001,2002,2003</member>
+      <member>0,2000,2005,2007,2008,2006,2016,2017,2001,2002,2003</member>
       <source_networks/>
     </group>
     <group uuid="a61b9096-413f-493b-8510-d74bfbf41e66">
@@ -225,7 +225,7 @@
       <scope>user</scope>
       <description>OPNsense-Admins</description>
       <priv>page-all</priv>
-      <member/>
+      <member>,2004</member>
       <source_networks/>
     </group>
     <user uuid="c50df96e-bdb7-476d-9f1a-a56fbaf95e1d">
@@ -2671,9 +2671,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/auth/add_user.php made changes</description>
-    <time>1774442487.51</time>
+    <username>(system)@10.10.8.4</username>
+    <description>/ made changes</description>
+    <time>1774442487.69</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
