@@ -541,7 +541,7 @@
       <refid>68ee3e552108a</refid>
       <type>ldap</type>
       <name>AD-LDAP</name>
-      <host>192.168.200.2</host>
+      <host>wc2.ad.eendjesshop.be</host>
       <ldap_port>636</ldap_port>
       <ldap_urltype>SSL - Encrypted</ldap_urltype>
       <ldap_protver>3</ldap_protver>
@@ -2640,8 +2640,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/system_general.php made changes</description>
-    <time>1774440684.48</time>
+    <description>/system_authservers.php made changes</description>
+    <time>1774440733.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
