@@ -223,7 +223,7 @@
       <gid>2000</gid>
       <name>OPNsense-Admins</name>
       <scope>user</scope>
-      <description>Active Directory Global Admins</description>
+      <description>OPNsense-Admins</description>
       <priv>page-all</priv>
       <member/>
       <source_networks/>
@@ -2652,7 +2652,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>group "OPNsense-Admins" changed</description>
-    <time>1774441851.30</time>
+    <time>1774441859.68</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
