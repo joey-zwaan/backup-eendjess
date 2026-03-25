@@ -913,7 +913,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <interface>wan</interface>
       <ipprotocol>inet6</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>IPv6 verkeer naar webserver proxy</descr>
+      <descr>IPv6 verkeer naar webserver via reverse proxy</descr>
       <direction>in</direction>
       <quick>1</quick>
       <protocol>tcp</protocol>
@@ -921,12 +921,12 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <any>1</any>
       </source>
       <destination>
-        <address>2a02:1802:bf:1101:be24:11ff:fe83:856a</address>
+        <address>2a02:1802:bf:1101::4</address>
         <port>Internetsurfing</port>
       </destination>
       <updated>
         <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774386892.32</time>
+        <time>1774447961.22</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2651,9 +2651,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.4</username>
-    <description>The user "joey" was successfully removed.</description>
-    <time>1774442551.48</time>
+    <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774447961.40</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
