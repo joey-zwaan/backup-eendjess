@@ -379,26 +379,6 @@
       <descr>testgebruiker</descr>
       <dashboard/>
     </user>
-    <user uuid="07e055cf-d4fa-4dbb-b758-e8c5c2b25a74">
-      <uid>2015</uid>
-      <name>Maxim</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$10$BP/vZaw6CII3DGCMW9.2h.y2TgB6riFXnO3tDh3heEH9NCs1nDKeO</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys/>
-      <priv/>
-      <language/>
-      <descr>Maxim</descr>
-      <dashboard/>
-    </user>
     <user uuid="3601ccd3-e48c-490c-89a5-bf3c31c31cb2">
       <uid>2017</uid>
       <name>duckduckgo</name>
@@ -2657,9 +2637,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1774393206.48</time>
+    <username>joey-admin@10.10.8.4</username>
+    <description>The user "Maxim" was successfully removed.</description>
+    <time>1774439082.40</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
