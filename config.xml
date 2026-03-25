@@ -589,6 +589,26 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <dhcp6_norelease>yes</dhcp6_norelease>
     <disableconsolemenu>1</disableconsolemenu>
     <prefer_ipv4>1</prefer_ipv4>
+    <user uuid="0d6b61eb-f268-4cce-853d-8ceb660cc204">
+      <uid>2004</uid>
+      <name>joey</name>
+      <disabled>0</disabled>
+      <scope>automation</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$xjSl.Q5mRmsuLpwxfTGs4u.eKkgPDlmDTqXLuk01LQXzREv7Y1zye</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv/>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -2651,9 +2671,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.4</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1774442475.32</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/auth/add_user.php made changes</description>
+    <time>1774442487.51</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
