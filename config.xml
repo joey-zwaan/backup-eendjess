@@ -1286,7 +1286,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <rule uuid="68407d88-1369-4413-8ffd-7a7871cbc25d">
       <type>pass</type>
       <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
+      <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Allow traffic to nextcloud</descr>
       <direction>in</direction>
@@ -1300,8 +1300,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1774379118.03</time>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774647024.25</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2653,8 +2653,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/api/firewall/alias/set_item/77d91773-bc2b-4e99-acfc-6380dbc77949 made changes</description>
-    <time>1774646984.00</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774647024.54</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
