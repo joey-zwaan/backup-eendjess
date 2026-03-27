@@ -2269,6 +2269,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="37a4b0c6-f19b-40cb-a1f8-ba36ef291346">
+      <type>pass</type>
+      <interface>openvpn</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>openvpn</network>
+      </source>
+      <destination>
+        <network>lanip</network>
+        <port>53</port>
+      </destination>
+      <updated>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774647595.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774647595.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="37d058d1-de17-49c9-8a40-1a82b10f18f5">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2654,7 +2680,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774647220.70</time>
+    <time>1774647596.20</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
