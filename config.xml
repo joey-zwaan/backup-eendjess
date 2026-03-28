@@ -1421,6 +1421,34 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="b84a10a5-1678-4d4e-ad09-5c6641801000">
+      <type>block</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Geen SSH vanaf DMZ naar LAN</descr>
+      <direction>in</direction>
+      <category>Reject/Block Rule</category>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <network>lan</network>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774732396.62</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774732382.98</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="9b5b87d9-7035-4c13-8f3d-d6ee072af8ce">
       <type>block</type>
       <interface>opt1</interface>
@@ -1642,34 +1670,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="b84a10a5-1678-4d4e-ad09-5c6641801000">
-      <type>block</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Geen SSH vanaf DMZ naar LAN</descr>
-      <direction>in</direction>
-      <category>Reject/Block Rule</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <network>lan</network>
-        <port>22</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774732396.62</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774732382.98</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1728,8 +1728,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1774732396.85</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774732401.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
