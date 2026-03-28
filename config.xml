@@ -1510,6 +1510,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <statetype>keep state</statetype>
       <descr>Blokkeren login firewall</descr>
       <direction>in</direction>
+      <category>Reject/Block Rule</category>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
@@ -1521,7 +1522,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774727875.61</time>
+        <time>1774731561.59</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1726,7 +1727,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774731546.74</time>
+    <time>1774731561.89</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
