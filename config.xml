@@ -1364,34 +1364,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="b78c0caf-9053-4117-83eb-a921af6ccdbf">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Toelaten beheer DMZ ipv6</descr>
-      <direction>in</direction>
-      <category>Management Rules</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <network>opt1</network>
-        <port>Management_Ports</port>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328424.6234</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328199.9467</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="908e63e5-a04a-4fe0-bb27-08ab87f8547b">
       <type>pass</type>
       <interface>lan</interface>
@@ -2154,8 +2126,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1774728891.80</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774728905.73</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
