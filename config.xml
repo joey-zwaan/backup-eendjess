@@ -2323,33 +2323,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="4e5af7c9-b566-4ce9-beac-3cce89f4c8cd">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Regel om te troubleshooten IPV6</descr>
-      <direction>in</direction>
-      <category>Ping Regels</category>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>samadm@10.10.8.2</username>
-        <time>1763126408.6528</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537501.9413</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="716b57aa-acc6-40e0-9c61-ffb5b6e63d8f">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2517,7 +2490,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774727098.13</time>
+    <time>1774727110.24</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
