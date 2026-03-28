@@ -1669,7 +1669,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </created>
     </rule>
     <rule uuid="9b5b87d9-7035-4c13-8f3d-d6ee072af8ce">
-      <type>pass</type>
+      <type>block</type>
       <interface>opt1</interface>
       <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
@@ -1687,7 +1687,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774731636.53</time>
+        <time>1774731647.69</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1755,7 +1755,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774731636.80</time>
+    <time>1774731647.92</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
