@@ -1372,115 +1372,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="dae5abba-ee5a-4f78-8997-3f71eb861e3d">
-      <type>pass</type>
-      <interface>openvpn</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>openvpn</network>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224374.4835</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224374.4835</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9c62156b-36cd-4874-aeae-069e853b715d">
-      <type>pass</type>
-      <interface>openvpn</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>openvpn</network>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224412.9303</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224412.9303</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="a12e7101-e010-4985-b309-858534df2c21">
-      <type>pass</type>
-      <interface>openvpn</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Mail toelaten over OpenVPN</descr>
-      <direction>in</direction>
-      <category>Mail Regels</category>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>openvpn</network>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>25</port>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328758.3103</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@10.10.8.4</username>
-        <time>1761121857.4732</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="2a8eb973-4a43-43ce-937a-96d5247d15ce">
-      <type>pass</type>
-      <interface>openvpn</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Mail toelaten over OpenVPN IPV6</descr>
-      <direction>in</direction>
-      <category>Mail Regels</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>openvpn</network>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>25</port>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328714.3941</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328693.6956</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="02f5928f-9cb4-4941-b275-c4b4695d7182">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -1808,7 +1699,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774731052.08</time>
+    <time>1774731072.93</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
