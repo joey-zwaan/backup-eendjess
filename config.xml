@@ -1480,7 +1480,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <rule uuid="cb7f0fc5-cb19-47f5-81cd-ab948d67fdae">
       <type>block</type>
       <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
+      <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Geen toegang firewall</descr>
       <direction>in</direction>
@@ -1494,7 +1494,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774731546.49</time>
+        <time>1774732036.26</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1727,7 +1727,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774732022.58</time>
+    <time>1774732036.50</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
