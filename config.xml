@@ -2192,15 +2192,17 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <descr>Blokkeren login firewall</descr>
       <direction>in</direction>
       <quick>1</quick>
+      <protocol>tcp/udp</protocol>
       <source>
         <any>1</any>
       </source>
       <destination>
         <network>opt1ip</network>
+        <port>Internetsurfing</port>
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774727257.96</time>
+        <time>1774727875.61</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2431,8 +2433,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/api/firewall/alias/del_item/1ac6062c-84dd-443d-b3c0-b6cb367ed529 made changes</description>
-    <time>1774727812.88</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774727875.91</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
