@@ -1063,60 +1063,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="a845ed98-ed64-4d00-936d-fa5101a917bc">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Certbot ipv6</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>samadm@10.10.8.2</username>
-        <time>1763126664.4089</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>nicolasadm@10.10.8.5</username>
-        <time>1763114073.0427</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="ead78e24-8de2-4d27-9c5e-33a31c5a645d">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Certbot ipv6</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>bad_ipv6</address>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224240.4963</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>nicolasadm@10.10.8.3</username>
-        <time>1763224240.4964</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="3ca65961-69ae-4aab-91bc-560f01fb4a35">
       <type>block</type>
       <interface>wan</interface>
@@ -1935,7 +1881,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774729920.22</time>
+    <time>1774729942.41</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
