@@ -2267,62 +2267,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="9190e9a8-ca02-49c1-93f5-189368744688">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Toelaten van verkeer naar webserver</descr>
-      <direction>in</direction>
-      <category>Internet Surfing</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>Internetsurfing</port>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328942.6452</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760535521.3205</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="c93ae600-78c9-4b17-bcb3-5c6aae0e7381">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Surfen Internet IPV6</descr>
-      <direction>in</direction>
-      <category>Internet Surfing</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>Internetsurfing</port>
-      </destination>
-      <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328922.0031</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328922.0031</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="a2623803-cc9b-4983-bb78-ae7717bafde1">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2433,6 +2377,62 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9190e9a8-ca02-49c1-93f5-189368744688">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Toelaten van verkeer naar webserver</descr>
+      <direction>in</direction>
+      <category>Internet Surfing</category>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>Internetsurfing</port>
+      </destination>
+      <updated>
+        <username>tymoadm@10.10.8.3</username>
+        <time>1762328942.6452</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760535521.3205</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="c93ae600-78c9-4b17-bcb3-5c6aae0e7381">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Surfen Internet IPV6</descr>
+      <direction>in</direction>
+      <category>Internet Surfing</category>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>Internetsurfing</port>
+      </destination>
+      <updated>
+        <username>tymoadm@10.10.8.3</username>
+        <time>1762328922.0031</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>tymoadm@10.10.8.3</username>
+        <time>1762328922.0031</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="860daf56-276c-4ef3-bb50-0c984b1ad113">
       <type>reject</type>
       <interface>opt1</interface>
@@ -2517,7 +2517,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774726978.69</time>
+    <time>1774727098.13</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
