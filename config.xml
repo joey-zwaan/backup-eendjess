@@ -1030,12 +1030,12 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <any>1</any>
       </source>
       <destination>
-        <network>lan</network>
+        <network>(self)</network>
         <port>1194</port>
       </destination>
       <updated>
-        <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
-        <time>1774380809.99</time>
+        <username>joey-admin@fd00:10:8::1002</username>
+        <time>1774731001.37</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1860,9 +1860,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1774730951.21</time>
+    <username>joey-admin@fd00:10:8::1002</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774731001.62</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
