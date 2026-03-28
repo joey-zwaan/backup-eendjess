@@ -1456,6 +1456,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <statetype>keep state</statetype>
       <descr>Geen toegang firewall</descr>
       <direction>in</direction>
+      <category>Reject/Block Rule</category>
       <quick>1</quick>
       <source>
         <network>opt1</network>
@@ -1465,7 +1466,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774731534.84</time>
+        <time>1774731546.49</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1725,7 +1726,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774731535.01</time>
+    <time>1774731546.74</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
