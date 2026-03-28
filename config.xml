@@ -1781,60 +1781,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="a9f9ecc8-7fc4-4bb8-8689-b2e9bcdb0c8f">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>HTTP Vault in LAN</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>aaronadm@2a02:1802:bf:1100:8009:de4a:9290:b47b</username>
-        <time>1764584154.85</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@192.168.200.140</username>
-        <time>1764581847.66</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9014cdb3-d126-468b-8f46-e100045d02b0">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>HTTPS in LAN voor Vault</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>2a02:1802:bf:1100:f471:6504:305b:678f/64</address>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>maximadm@192.168.200.140</username>
-        <time>1764581890.69</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@192.168.200.140</username>
-        <time>1764581890.69</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="fd604aa3-1165-4fde-a04d-b45fd80f16e8">
       <type>pass</type>
       <interface>lan</interface>
@@ -1860,35 +1806,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <time>1773670291.41</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-    </rule>
-    <rule uuid="5ed03022-f39c-41e2-83d0-4074f564cc58">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Poorten nextcloud beschikbaar maken voor Lan netwerk</descr>
-      <direction>in</direction>
-      <category>nextcloud_rule</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <network>lanip</network>
-        <port>Nextcloud_ports</port>
-      </destination>
-      <updated>
-        <username>kenneth-admin@fd00:10:8::1002</username>
-        <time>1774352860.98</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>kenneth-admin@fd00:10:8::1002</username>
-        <time>1774352684.58</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
     </rule>
     <rule uuid="ef43e534-3b68-4d82-a042-7cad62b76d20">
       <type>reject</type>
@@ -2705,8 +2622,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1774710005.33</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774726546.09</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
