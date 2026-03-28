@@ -1245,12 +1245,12 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <network>openvpn</network>
       </source>
       <destination>
-        <network>lan</network>
+        <any>1</any>
         <port>22</port>
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774708456.30</time>
+        <time>1774733453.56</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1614,8 +1614,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1774733432.13</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774733453.76</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
