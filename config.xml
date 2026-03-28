@@ -939,7 +939,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <interface>wan</interface>
       <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Toegang toelaten naar OPNsense</descr>
+      <descr>Anti-lockout rule WAN</descr>
       <direction>in</direction>
       <category>Internet Surfing</category>
       <quick>1</quick>
@@ -952,8 +952,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <port>Internetsurfing</port>
       </destination>
       <updated>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774730476.91</time>
+        <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
+        <time>1774730622.62</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1860,9 +1860,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.10.8.4</username>
+    <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774730477.15</time>
+    <time>1774730622.86</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
