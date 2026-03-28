@@ -426,7 +426,7 @@
       <priv>page-all</priv>
       <language/>
       <descr>Joey</descr>
-      <dashboard/>
+      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJpbnRlcmZhY2VzIiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6NjUwLCJ4IjowLCJ5IjowLCJoIjo0MjgsIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJtZW1vcnkiLCJtaW5XIjoxLCJ4IjoyLCJ5IjowLCJoIjoxMDcsIndpZGdldCI6W10sInciOm51bGx9LHsiaWQiOiJkaXNrIiwibWluVyI6MSwieCI6MywieSI6MCwiaCI6MTA3LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjI2Miwid2lkZ2V0IjpbXX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6OCwieSI6MCwidyI6NCwiaCI6MjYyLCJ3aWRnZXQiOltdfSx7ImlkIjoiZ2F0ZXdheXMiLCJtaW5XIjoyLCJ4IjoyLCJ5IjoxMDcsInNpemVUb0NvbnRlbnQiOjY1MCwiaCI6MjM0LCJ3aWRnZXQiOnsiZ2F0ZXdheXMiOlsiV0FOX0RIQ1A2IiwiV0FOX0RIQ1AiXX0sInciOjJ9LHsiaWQiOiJzZXJ2aWNlcyIsIm1pblciOjIsIngiOjQsInkiOjI2MiwidyI6NCwic2l6ZVRvQ29udGVudCI6NjUwLCJoIjo2NTAsIndpZGdldCI6W119LHsiaWQiOiJ0cmFmZmljIiwibWluVyI6MiwieCI6OCwieSI6MjYyLCJ3Ijo0LCJoIjo0NDYsIndpZGdldCI6eyJpbnRlcmZhY2VzIjpbImxhbiIsIndhbiJdfX0seyJpZCI6ImFubm91bmNlbWVudHMiLCJtaW5XIjoyLCJ4IjoyLCJ5IjozNDEsInNpemVUb0NvbnRlbnQiOjM1MCwiaCI6MzUwLCJ3aWRnZXQiOltdLCJ3IjoyfSx7ImlkIjoic3lzdGVtaW5mb3JtYXRpb24iLCJtaW5XIjoyLCJ4IjowLCJ5Ijo0MjgsImgiOjYwMiwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6ImNwdSIsIm1pblciOjIsIngiOjAsInkiOjEwMzAsImgiOjE3OCwid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn1dfQ==</dashboard>
     </user>
     <user uuid="3bfbc47c-fff3-4462-82a9-18260e5ceebb">
       <uid>2002</uid>
@@ -2678,9 +2678,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1774652406.20</time>
+    <username>joey-admin@10.10.8.4</username>
+    <description>/api/core/dashboard/save_widgets made changes</description>
+    <time>1774698605.91</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
