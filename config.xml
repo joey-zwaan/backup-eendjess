@@ -2706,7 +2706,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1774709983.28</time>
+    <time>1774710005.33</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3867,7 +3867,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12" persisted_at="1774709983.28" description="Unbound configuration">
+    <unboundplus version="1.0.12" persisted_at="1774710005.33" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -4029,6 +4029,18 @@ b7f0294f929601cf4503f38ce8a4a100
           <server>192.168.200.18</server>
           <txtdata/>
           <description>netbox</description>
+        </host>
+        <host uuid="12be8adc-4a5a-477d-a890-b94c80ee3010">
+          <enabled>1</enabled>
+          <hostname>netbox</hostname>
+          <domain>eendjesshop.be</domain>
+          <rr>AAAA</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>2a02:1802:bf:1100:cafe::18</server>
+          <txtdata/>
+          <description/>
         </host>
       </hosts>
       <aliases/>
