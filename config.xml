@@ -2322,34 +2322,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="a1d94669-6e78-4b14-9d2b-025832b1cc4e">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Regel die de logs toelaat van DMZ naar LAN</descr>
-      <direction>in</direction>
-      <category>Management Rules</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <network>lan</network>
-        <port>8220</port>
-      </destination>
-      <updated>
-        <username>maximadm@10.10.8.6</username>
-        <time>1762329205.7025</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@10.10.8.6</username>
-        <time>1762329205.7025</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="df933bad-22ea-4347-95e2-a2b471ceb50c">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2628,7 +2600,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774726911.97</time>
+    <time>1774726964.05</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
