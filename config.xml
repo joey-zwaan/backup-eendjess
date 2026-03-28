@@ -1255,33 +1255,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="68407d88-1369-4413-8ffd-7a7871cbc25d">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow internet traffic</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>Internetsurfing</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774728042.60</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1774362497.37</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="2bc1d1da-9371-42ce-b8e2-8e8d3a221118">
       <type>pass</type>
       <interface>lan</interface>
@@ -2297,7 +2270,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.8.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1774728075.10</time>
+    <time>1774728090.61</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
