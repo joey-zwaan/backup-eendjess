@@ -1585,23 +1585,23 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <rule uuid="1740a74c-6beb-4546-a023-1a80d7402e33">
       <type>pass</type>
       <interface>openvpn</interface>
-      <ipprotocol>inet6</ipprotocol>
+      <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Toestaan beheer LAN IPV6</descr>
       <direction>in</direction>
       <category>Management Rules</category>
       <quick>1</quick>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <network>openvpn</network>
       </source>
       <destination>
-        <network>lan</network>
+        <any>1</any>
         <port>Proxmox</port>
       </destination>
       <updated>
-        <username>tymoadm@10.10.8.3</username>
-        <time>1762328585.0305</time>
+        <username>joey-admin@10.10.8.4</username>
+        <time>1774729701.98</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2102,8 +2102,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1774729663.06</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774729702.14</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
