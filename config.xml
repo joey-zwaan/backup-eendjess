@@ -1393,34 +1393,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="04816737-b915-433f-b2fa-ffd56e774972">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Regel Nodig voor de OpenVpn Connectie</descr>
-      <direction>in</direction>
-      <category>OpenVPN</category>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <network>lanip</network>
-        <port>1196</port>
-      </destination>
-      <updated>
-        <username>tymoadm@2a02:1802:bf:1900::17a8</username>
-        <time>1764168308.72</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@2a02:1802:bf:1900::17a8</username>
-        <time>1764168308.72</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="83496103-b417-403c-860f-b4f26617ae65">
       <type>pass</type>
       <interface>lan</interface>
@@ -2379,8 +2351,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/vpn_openvpn_server.php made changes</description>
-    <time>1774727950.48</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774727968.18</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
