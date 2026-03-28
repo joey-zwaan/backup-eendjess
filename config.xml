@@ -1310,60 +1310,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="7657afd6-0eee-499f-8511-96d33348cc3f">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Zabbix naar DMZ hosts</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <network>opt1</network>
-        <port>Zabbix_agent_port</port>
-      </destination>
-      <updated>
-        <username>aaronadm@10.10.8.4</username>
-        <time>1764226624.95</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>aaronadm@192.168.200.134</username>
-        <time>1763384200.86</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="758a2041-dd95-47c3-9b68-0f140bd79eb9">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow LAN to Zabbix-Server</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>Zabbix_Server</address>
-        <port>Zabbix_agent_port</port>
-      </destination>
-      <updated>
-        <username>aaronadm@10.10.8.4</username>
-        <time>1764227011.54</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>aaronadm@10.10.8.4</username>
-        <time>1764226860.47</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="2bc1d1da-9371-42ce-b8e2-8e8d3a221118">
       <type>pass</type>
       <interface>lan</interface>
@@ -2433,8 +2379,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1774727875.91</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1774727926.22</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
