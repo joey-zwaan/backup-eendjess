@@ -1021,7 +1021,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <interface>wan</interface>
       <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Toegang verzekeren voor WAN access naar LAN</descr>
+      <descr>VPN toegang</descr>
       <direction>in</direction>
       <category>OpenVPN</category>
       <quick>1</quick>
@@ -1035,7 +1035,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@fd00:10:8::1002</username>
-        <time>1774731001.37</time>
+        <time>1774731021.16</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1862,7 +1862,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@fd00:10:8::1002</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1774731001.62</time>
+    <time>1774731021.42</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
