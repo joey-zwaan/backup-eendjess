@@ -2431,8 +2431,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.8.4</username>
-    <description>/api/firewall/alias/del_item/03a47d71-e455-4b19-af6a-8c4d1506cebd made changes</description>
-    <time>1774727808.40</time>
+    <description>/api/firewall/alias/del_item/1ac6062c-84dd-443d-b3c0-b6cb367ed529 made changes</description>
+    <time>1774727812.88</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2628,7 +2628,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1774727808.40" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1774727812.88" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -2805,23 +2805,6 @@ b7f0294f929601cf4503f38ce8a4a100
             <expire/>
             <categories>0ef9b13d-4988-4185-bf89-f23d83fbb7be</categories>
             <description>Poorten voor Mail</description>
-          </alias>
-          <alias uuid="1ac6062c-84dd-443d-b3c0-b6cb367ed529">
-            <enabled>1</enabled>
-            <name>IPADRESSENSTUDENTENTHUIS</name>
-            <type>host</type>
-            <path_expression/>
-            <proto/>
-            <interface/>
-            <counters>0</counters>
-            <updatefreq/>
-            <content>2a02:a03f:e139:1a01:cab3:79f0:6c7:702b</content>
-            <password/>
-            <username/>
-            <authtype/>
-            <expire/>
-            <categories/>
-            <description>backdoor voor toch in firewall te geraken.</description>
           </alias>
           <alias uuid="4e03b5c4-46ce-4cad-b685-651957252649">
             <enabled>1</enabled>
