@@ -1025,7 +1025,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <direction>in</direction>
       <category>Management Rules</category>
       <quick>1</quick>
-      <protocol>tcp</protocol>
       <source>
         <address>management</address>
       </source>
@@ -1034,7 +1033,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.10.8.4</username>
-        <time>1774731790.03</time>
+        <time>1774872685.04</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1619,9 +1618,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1774821607.45</time>
+    <username>joey-admin@10.10.8.4</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1774872685.32</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
