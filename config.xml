@@ -709,6 +709,14 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <dnsserver>192.168.200.99</dnsserver>
       <dnsserver>192.168.200.2</dnsserver>
       <ntpserver/>
+      <staticmap>
+        <mac>b8:ac:6f:7f:f8:5d</mac>
+        <ipaddr>192.168.200.100</ipaddr>
+        <hostname>idrac-DGQZQ4J</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </lan>
   </dhcpd>
   <snmpd>
@@ -1618,9 +1626,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1774908006.63</time>
+    <username>joey-admin@10.10.8.4</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1774960036.03</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
