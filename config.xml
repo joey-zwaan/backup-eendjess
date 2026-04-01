@@ -696,7 +696,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <opt3>
       <if>ovpns2</if>
       <descr>Openvpnadmin</descr>
-      <enable>1</enable>
       <spoofmac/>
     </opt3>
   </interfaces>
@@ -1737,8 +1736,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.204</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1775057201.47</time>
+    <description>Interface Openvpnadmin(opt3) is now disabled.</description>
+    <time>1775057370.87</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
