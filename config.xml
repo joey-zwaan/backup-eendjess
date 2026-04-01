@@ -1707,8 +1707,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.206</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1775055123.26</time>
+    <description>/api/openvpn/export/download/dd82b96a-610f-487c-acc1-c4465a294cfd/699d9023babd1/ made changes</description>
+    <time>1775055205.29</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1795,7 +1795,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <VTIs/>
       <SPDs/>
     </Swanctl>
-    <OpenVPNExport version="0.0.1" persisted_at="1774381136.41" description="OpenVPN export presets">
+    <OpenVPNExport version="0.0.1" persisted_at="1775055205.29" description="OpenVPN export presets">
       <servers>
         <server uuid="26caa0dc-efb9-44cd-ad86-40843b628340">
           <vpnid>1</vpnid>
@@ -1828,6 +1828,18 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
           <local_port>1196</local_port>
           <random_local_port>1</random_local_port>
           <validate_server_cn>0</validate_server_cn>
+          <cryptoapi>0</cryptoapi>
+          <auth_nocache>0</auth_nocache>
+          <static_challenge>0</static_challenge>
+          <plain_config/>
+        </server>
+        <server uuid="4b63337b-8cd4-4db8-91b1-3193d5c9fb40">
+          <vpnid>dd82b96a-610f-487c-acc1-c4465a294cfd</vpnid>
+          <hostname>2a02:1802:bf:3:be24:11ff:fe84:1fc2</hostname>
+          <template>PlainOpenVPN</template>
+          <local_port>1196</local_port>
+          <random_local_port>1</random_local_port>
+          <validate_server_cn>1</validate_server_cn>
           <cryptoapi>0</cryptoapi>
           <auth_nocache>0</auth_nocache>
           <static_challenge>0</static_challenge>
