@@ -591,61 +591,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <prefer_ipv4>1</prefer_ipv4>
   </system>
   <interfaces>
-    <wan>
-      <if>vtnet0</if>
-      <descr/>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address/>
-      <alias-subnet>32</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
-      <ipaddrv6>dhcp6</ipaddrv6>
-      <dhcp6-ia-pd-len>8</dhcp6-ia-pd-len>
-      <dhcp6-ia-pd-send-hint>1</dhcp6-ia-pd-send-hint>
-      <adv_dhcp6_interface_statement_send_options/>
-      <adv_dhcp6_interface_statement_request_options/>
-      <adv_dhcp6_interface_statement_information_only_enable/>
-      <adv_dhcp6_interface_statement_script/>
-      <adv_dhcp6_id_assoc_statement_address_enable/>
-      <adv_dhcp6_id_assoc_statement_address/>
-      <adv_dhcp6_id_assoc_statement_address_id/>
-      <adv_dhcp6_id_assoc_statement_address_pltime/>
-      <adv_dhcp6_id_assoc_statement_address_vltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_enable/>
-      <adv_dhcp6_id_assoc_statement_prefix/>
-      <adv_dhcp6_id_assoc_statement_prefix_id/>
-      <adv_dhcp6_id_assoc_statement_prefix_pltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_vltime/>
-      <adv_dhcp6_prefix_interface_statement_sla_len/>
-      <adv_dhcp6_authentication_statement_authname/>
-      <adv_dhcp6_authentication_statement_protocol/>
-      <adv_dhcp6_authentication_statement_algorithm/>
-      <adv_dhcp6_authentication_statement_rdm/>
-      <adv_dhcp6_key_info_statement_keyname/>
-      <adv_dhcp6_key_info_statement_realm/>
-      <adv_dhcp6_key_info_statement_keyid/>
-      <adv_dhcp6_key_info_statement_secret/>
-      <adv_dhcp6_key_info_statement_expire/>
-      <adv_dhcp6_config_advanced/>
-      <adv_dhcp6_config_file_override/>
-      <adv_dhcp6_config_file_override_path/>
-    </wan>
     <lan>
       <if>vtnet1</if>
       <descr/>
@@ -738,7 +683,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </outbound>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
       <category>Mail Regels</category>
       <ipprotocol>inet</ipprotocol>
       <descr>bad.eendjesshop.be SMTP</descr>
@@ -769,7 +713,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr>webserver beschikbaar maken via ipv4/https</descr>
@@ -799,7 +742,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr>webserver beschikbaar maken via ipv4/http</descr>
@@ -829,237 +771,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </rule>
   </nat>
   <filter>
-    <rule uuid="24d2c28c-eb4f-438f-9a87-24ac80a45964">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774385570.91</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>aaronadm@10.10.8.6</username>
-        <time>1762337590.0356</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="7692ee47-61b2-487b-9885-45e089fc5cc9">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>samadm@10.10.8.2</username>
-        <time>1763130190.7559</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>aaronadm@10.10.8.6</username>
-        <time>1762337607.1674</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9aadfd84-adf0-46c3-a8e8-93cfdf2ddfc9">
-      <type>pass</type>
-      <associated-rule-id>nat_69c14aabab0250.29454306</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.201.4</address>
-        <port>443</port>
-      </destination>
-      <descr>webserver beschikbaar maken via ipv4/https</descr>
-      <category/>
-      <created>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774275243.70</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="a334b062-f544-4e36-a356-c8d5e248985c">
-      <type>pass</type>
-      <associated-rule-id>nat_69c14ac55e94a0.72357252</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.201.4</address>
-        <port>80</port>
-      </destination>
-      <descr>webserver beschikbaar maken via ipv4/http</descr>
-      <category/>
-      <created>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774275269.39</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="17fb6641-50cc-4ece-8e22-90a5e5482112">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>IPv6 verkeer naar webserver via reverse proxy</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>2a02:1802:bf:1101::4</address>
-        <port>Internetsurfing</port>
-      </destination>
-      <updated>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774447961.22</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774386892.32</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="64350117-c888-4b91-85c3-556efb477f3f">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Anti-lockout rule WAN</descr>
-      <direction>in</direction>
-      <category>Internet Surfing</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>joey-admin@2a02:a03f:e85a:8f08:3cff:88fd:845f:ce6</username>
-        <time>1774730687.37</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760535674.2749</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="67eac07d-5bff-4ad0-99ec-8c12fa8c6939">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>VPN toegang</descr>
-      <direction>in</direction>
-      <category>OpenVPN</category>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>(self)</network>
-        <port>1194</port>
-      </destination>
-      <updated>
-        <username>joey-admin@fd00:10:8::1002</username>
-        <time>1774731021.16</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@10.10.8.6</username>
-        <time>1760534116.5322</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="37170c85-5968-4aca-b4b8-38eaecc9e663">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>admin-VPN toegang</descr>
-      <direction>in</direction>
-      <category>OpenVPN</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>(self)</network>
-        <port>1196</port>
-      </destination>
-      <updated>
-        <username>joey-admin@192.168.200.204</username>
-        <time>1775057201.20</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@192.168.200.206</username>
-        <time>1775055123.02</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="3ca65961-69ae-4aab-91bc-560f01fb4a35">
-      <type>block</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Blokkeren van Broadcast verkeer</descr>
-      <direction>in</direction>
-      <category>Reject/Block Rule</category>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>94.72.91.143/28</address>
-      </destination>
-      <updated>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537985.1594</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760537985.1594</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="202bd0ba-b223-47c6-9d03-fb0327205520">
       <type>pass</type>
       <interface>lan</interface>
@@ -1789,8 +1500,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.202</username>
-    <description>/interfaces.php made changes</description>
-    <time>1775066935.67</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1775067000.58</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
