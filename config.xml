@@ -1738,7 +1738,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@192.168.200.204</username>
     <description>/api/openvpn/instances/set/dd82b96a-610f-487c-acc1-c4465a294cfd made changes</description>
-    <time>1775056694.65</time>
+    <time>1775056789.74</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1877,7 +1877,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         </server>
       </servers>
     </OpenVPNExport>
-    <OpenVPN version="1.0.1" persisted_at="1775056694.65" description="OpenVPN">
+    <OpenVPN version="1.0.1" persisted_at="1775056789.74" description="OpenVPN">
       <Overwrites/>
       <Instances>
         <Instance uuid="dd82b96a-610f-487c-acc1-c4465a294cfd">
@@ -1885,7 +1885,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
           <enabled>1</enabled>
           <dev_type>tun</dev_type>
           <verb>3</verb>
-          <proto>udp</proto>
+          <proto>udp6</proto>
           <port>1196</port>
           <port-share/>
           <local>2a02:1802:bf:3:be24:11ff:fe84:1fc2</local>
