@@ -1561,10 +1561,11 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </source>
       <destination>
         <network>(self)</network>
+        <port>443</port>
       </destination>
       <updated>
         <username>joey-admin@192.168.200.202</username>
-        <time>1775067319.75</time>
+        <time>1775067338.74</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1632,7 +1633,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@192.168.200.202</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1775067319.97</time>
+    <time>1775067338.97</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
