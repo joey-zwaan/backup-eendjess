@@ -1659,7 +1659,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.10.9.2</username>
     <description>/api/core/hasync/set made changes</description>
-    <time>1775088403.92</time>
+    <time>1775088606.96</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3930,16 +3930,16 @@ b7f0294f929601cf4503f38ce8a4a100
   <syslog>
     <preservelogs>1</preservelogs>
   </syslog>
-  <hasync version="1.0.2" persisted_at="1775088403.92" description="HA sync">
+  <hasync version="1.0.2" persisted_at="1775088606.96" description="HA sync">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
-    <pfsyncinterface/>
+    <pfsyncinterface>lan</pfsyncinterface>
     <pfsyncpeerip/>
     <pfsyncversion>1400</pfsyncversion>
     <pfsyncdefer>0</pfsyncdefer>
     <synchronizetoip>192.168.202.99</synchronizetoip>
     <verifypeer>0</verifypeer>
-    <username>admin</username>
+    <username>root</username>
     <password>duckduckgo</password>
     <syncitems>aliases,authservers,captiveportal,certs,cron,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,quagga,suricata,ipsec,dhcpd,dhcpdv6,kea,monit,nat,syslog,netsnmp,ntpd,opendns,ssh,qemuguestagent,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui,wireguard,zabbixagent</syncitems>
   </hasync>
