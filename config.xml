@@ -1680,9 +1680,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>joey-admin@10.0.8.3</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1775163254.05</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1775167206.62</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3246,7 +3246,7 @@ b7f0294f929601cf4503f38ce8a4a100
       </static>
     </quagga>
     <Gateways version="1.0.0" persisted_at="1775153985.41" description="Gateways configuration"/>
-    <AcmeClient version="4.3.0" persisted_at="1775081065.20" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1775167206.61" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -3290,6 +3290,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <validationMethod>18e04928-59f0-4fc2-8611-7830a9f470cc</validationMethod>
           <keyLength>key_4096</keyLength>
           <ocsp>0</ocsp>
+          <profile/>
           <restartActions/>
           <autoRenewal>1</autoRenewal>
           <renewInterval>60</renewInterval>
@@ -3299,7 +3300,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <certRefId/>
           <lastUpdate/>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1775081065</statusLastUpdate>
+          <statusLastUpdate>1775167206</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
@@ -3334,6 +3335,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_azuredns_tenantid/>
           <dns_azuredns_appid/>
           <dns_azuredns_clientsecret/>
+          <dns_azuredns_managedidentity>0</dns_azuredns_managedidentity>
           <dns_bunny_api_key/>
           <dns_cf_email/>
           <dns_cf_key/>
@@ -3387,6 +3389,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_hostingde_apiKey/>
           <dns_he_user/>
           <dns_he_password/>
+          <dns_he_ddns_key/>
           <dns_infoblox_credentials/>
           <dns_infoblox_server/>
           <dns_inwx_user/>
@@ -3467,6 +3470,12 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_porkbun_key/>
           <dns_porkbun_secret/>
           <dns_sl_key/>
+          <dns_sl_apiver/>
+          <dns_sl_token_lifetime/>
+          <dns_sl_account_id/>
+          <dns_sl_project_name/>
+          <dns_sl_login_name/>
+          <dns_sl_password/>
           <dns_selfhost_user/>
           <dns_selfhost_password/>
           <dns_selfhost_map/>
@@ -3474,8 +3483,15 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_servercow_password/>
           <dns_simply_api_key/>
           <dns_simply_account_name/>
+          <dns_spaceship_api_key/>
+          <dns_spaceship_api_secret/>
+          <dns_spaceship_root_domain/>
+          <dns_technitium_token/>
+          <dns_technitium_hostname/>
           <dns_transip_username/>
           <dns_transip_key/>
+          <dns_transip_token_global_key>0</dns_transip_token_global_key>
+          <dns_timeweb_token/>
           <dns_udr_user/>
           <dns_udr_password/>
           <dns_uno_key/>
@@ -3509,6 +3525,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_artfiles_username/>
           <dns_artfiles_password/>
           <dns_hetzner_token/>
+          <dns_hetznercloud_token/>
           <dns_hexonet_login/>
           <dns_hexonet_password/>
           <dns_1984hosting_user/>
@@ -3553,7 +3570,10 @@ b7f0294f929601cf4503f38ce8a4a100
           <dns_rackspace_key/>
           <dns_rage4_token/>
           <dns_rage4_user/>
+          <dns_mijnhost_api_key/>
           <dns_scaleway_token/>
+          <dns_zoneedit_id/>
+          <dns_zoneedit_token/>
         </validation>
       </validations>
       <actions/>
