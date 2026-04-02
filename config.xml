@@ -1687,8 +1687,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.206</username>
-    <description>/api/routes/routes/toggleroute/cde14826-d7d7-480b-96c6-aa60d057fa74 made changes</description>
-    <time>1775153969.89</time>
+    <description>/api/routes/routes/toggleroute/90244e5f-5dee-4865-b9ed-09e67061d070 made changes</description>
+    <time>1775153971.17</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3810,7 +3810,7 @@ b7f0294f929601cf4503f38ce8a4a100
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0" persisted_at="1775153969.89" description="Static routes">
+  <staticroutes version="1.0.0" persisted_at="1775153971.17" description="Static routes">
     <route uuid="cde14826-d7d7-480b-96c6-aa60d057fa74">
       <network>192.168.202.0/24</network>
       <gateway>opnsense2</gateway>
@@ -3821,7 +3821,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <network>10.10.9.0/24</network>
       <gateway>opnsense2</gateway>
       <descr>openvpn-return</descr>
-      <disabled>0</disabled>
+      <disabled>1</disabled>
     </route>
   </staticroutes>
   <bridges version="1.0.0">
