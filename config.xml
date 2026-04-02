@@ -1687,8 +1687,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.206</username>
-    <description>/api/core/dashboard/save_widgets made changes</description>
-    <time>1775153925.21</time>
+    <description>/api/interfaces/vip_settings/del_item/66898d93-3865-45c8-9c65-6555885c1249 made changes</description>
+    <time>1775153945.93</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3788,24 +3788,7 @@ b7f0294f929601cf4503f38ce8a4a100
   <laggs version="1.0.0">
     <lagg/>
   </laggs>
-  <virtualip version="1.0.1" persisted_at="1775088289.48" description="Virtual IP configuration">
-    <vip uuid="66898d93-3865-45c8-9c65-6555885c1249">
-      <interface>lan</interface>
-      <mode>ipalias</mode>
-      <subnet>192.168.202.2</subnet>
-      <subnet_bits>24</subnet_bits>
-      <gateway/>
-      <noexpand>0</noexpand>
-      <nobind>0</nobind>
-      <password/>
-      <vhid/>
-      <advbase>1</advbase>
-      <advskew>0</advskew>
-      <peer/>
-      <peer6/>
-      <nosync>0</nosync>
-      <descr/>
-    </vip>
+  <virtualip version="1.0.1" persisted_at="1775153945.93" description="Virtual IP configuration">
     <vip uuid="62d6698f-5d77-4f34-95d4-0953e7dd0a45">
       <interface>lan</interface>
       <mode>carp</mode>
