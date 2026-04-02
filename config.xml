@@ -484,11 +484,6 @@
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
-    <ipv6allow>1</ipv6allow>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -546,7 +541,6 @@
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
     <disablereplyto>yes</disablereplyto>
-    <ipv6duid>00:00:00:04:85:DB:9C:41:25:0B:52:66:D8:DD:7C:1E:05:03:D0:65</ipv6duid>
     <authserver>
       <refid>68ee3e552108a</refid>
       <type>ldap</type>
@@ -587,7 +581,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <password/>
       </git>
     </backup>
-    <dhcp6_norelease>yes</dhcp6_norelease>
     <prefer_ipv4>1</prefer_ipv4>
   </system>
   <interfaces>
@@ -739,93 +732,125 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <outbound>
       <mode>automatic</mode>
     </outbound>
-    <rule>
-      <protocol>tcp</protocol>
-      <category>Mail Regels</category>
+    <rule uuid="63454c74-701d-4476-9293-1666e7d9216d">
+      <sequence>100</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface/>
       <ipprotocol>inet</ipprotocol>
-      <descr>bad.eendjesshop.be SMTP</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id/>
-      <target>192.168.201.2</target>
-      <local-port>MailPorts</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>MailPorts</port>
+        <not>0</not>
       </destination>
+      <target>192.168.201.2</target>
+      <local-port>MailPorts</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category>Mail Regels</category>
+      <descr>bad.eendjesshop.be SMTP</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
       <natreflection>purenat</natreflection>
-      <updated>
-        <username>nicolasadm@10.10.8.4</username>
-        <time>1763124150.0249</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>nicolasadm@10.10.8.5</username>
         <time>1763113083.3609</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>nicolasadm@10.10.8.4</username>
+        <time>1763124150.0249</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <category/>
+    <rule uuid="73b544a9-4ce4-406a-b032-ddbfe8255969">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface/>
       <ipprotocol>inet</ipprotocol>
-      <descr>webserver beschikbaar maken via ipv4/https</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_69c14aabab0250.29454306</associated-rule-id>
-      <target>192.168.201.4</target>
-      <local-port>443</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>443</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774381660.79</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>192.168.201.4</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>webserver beschikbaar maken via ipv4/https</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
         <time>1774275243.70</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
+        <time>1774381660.79</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <category/>
+    <rule uuid="8588fcc3-1b5f-44a8-af1c-010dd8558deb">
+      <sequence>300</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface/>
       <ipprotocol>inet</ipprotocol>
-      <descr>webserver beschikbaar maken via ipv4/http</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_69c14ac55e94a0.72357252</associated-rule-id>
-      <target>192.168.201.4</target>
-      <local-port>80</local-port>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>wanip</network>
         <port>80</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774386390.51</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>192.168.201.4</target>
+      <local-port>80</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>webserver beschikbaar maken via ipv4/http</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
         <time>1774275269.39</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
+        <time>1774386390.51</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
   </nat>
   <filter>
@@ -1661,9 +1686,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1775151117.36</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1775151789.85</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2343,7 +2368,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.1" persisted_at="1763386451.47" description="Intrusion detection">
+    <IDS version="1.1.2" persisted_at="1775151411.03" description="Intrusion detection">
       <rules>
         <rule uuid="94507f04-e510-404f-acf2-5ee7b2430713">
           <sid>2014893</sid>
@@ -2462,7 +2487,8 @@ b7f0294f929601cf4503f38ce8a4a100
       <fileTags/>
       <general>
         <enabled>1</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>1</promisc>
         <interfaces>opt1,lan,wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -2499,6 +2525,17 @@ b7f0294f929601cf4503f38ce8a4a100
       <loopbacks version="1.0.0"/>
       <vxlans version="1.0.2"/>
       <neighbors version="1.0.0"/>
+      <settings version="1.0.0" persisted_at="1775151411.52" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>0</disableipv6>
+        <dhcp6_norelease>1</dhcp6_norelease>
+        <dhcp6_debug>0</dhcp6_debug>
+        <dhcp6_duid>00:00:00:04:85:DB:9C:41:25:0B:52:66:D8:DD:7C:1E:05:03:D0:65</dhcp6_duid>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <monit version="1.0.14" persisted_at="1763369499.90" description="Monit settings">
       <general>
@@ -2815,7 +2852,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.13" persisted_at="1775150680.53" description="Unbound configuration">
+    <unboundplus version="1.0.14" persisted_at="1775151789.80" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2933,6 +2970,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>192.168.201.2</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description>No hairpinning!</description>
         </host>
         <host uuid="0564cad7-1808-49f2-b3d6-ce401db04fac">
@@ -2945,6 +2983,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>192.168.200.16</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description/>
         </host>
         <host uuid="94699323-f02c-4290-9fa3-dabf58943a63">
@@ -2957,6 +2996,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>192.168.200.2</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description/>
         </host>
         <host uuid="cacbfba4-364d-4eaa-859c-3cce64cca0e7">
@@ -2969,6 +3009,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>2a02:1802:bf:1100:cafe::16</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description/>
         </host>
         <host uuid="16754740-b196-47cf-9739-57d9325b98fe">
@@ -2981,6 +3022,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>192.168.200.18</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description>netbox</description>
         </host>
         <host uuid="12be8adc-4a5a-477d-a890-b94c80ee3010">
@@ -2993,6 +3035,7 @@ b7f0294f929601cf4503f38ce8a4a100
           <ttl/>
           <server>2a02:1802:bf:1100:cafe::18</server>
           <txtdata/>
+          <addptr>1</addptr>
           <description/>
         </host>
       </hosts>
@@ -3573,6 +3616,13 @@ b7f0294f929601cf4503f38ce8a4a100
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
+      <ddns version="1.0.0" persisted_at="1775151788.75" description="Kea Dynamic DNS configuration">
+        <general>
+          <enabled>0</enabled>
+          <server_ip>127.0.0.1</server_ip>
+          <server_port>53001</server_port>
+        </general>
+      </ddns>
     </Kea>
     <wireguard>
       <client version="1.0.0">
@@ -3662,6 +3712,7 @@ b7f0294f929601cf4503f38ce8a4a100
         <interface/>
       </general>
     </Hostwatch>
+    <radvd version="1.0.0" persisted_at="1775151412.63" description="Radvd configuration"/>
   </OPNsense>
   <openvpn>
     <openvpn-server>
@@ -3961,7 +4012,7 @@ b7f0294f929601cf4503f38ce8a4a100
     <password>duckduckgo</password>
     <syncitems>aliases,authservers,captiveportal,certs,cron,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,quagga,suricata,ipsec,dhcpd,dhcpdv6,kea,monit,nat,syslog,netsnmp,ntpd,opendns,ssh,qemuguestagent,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui,wireguard,zabbixagent</syncitems>
   </hasync>
-  <dnsmasq version="1.0.8" persisted_at="1763369498.99" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1775151787.87" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -3993,10 +4044,12 @@ b7f0294f929601cf4503f38ce8a4a100
       <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
+      <host_ping>1</host_ping>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <dhcp_ranges/>
   </dnsmasq>
   <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
