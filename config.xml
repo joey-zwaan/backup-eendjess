@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense</theme>
-  <sysctl version="1.0.1">
+  <sysctl version="1.0.2" persisted_at="1775150677.58" description="System Tunables">
     <item uuid="7ab73710-740f-4384-bf12-689caafbd49c">
       <tunable>vfs.read_max</tunable>
       <value/>
@@ -1661,9 +1661,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>opt4 configuration from console menu</description>
-    <time>1775150416.43</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1775150680.57</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2815,7 +2815,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12" persisted_at="1774710005.33" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1775150680.53" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2832,6 +2832,7 @@ b7f0294f929601cf4503f38ce8a4a100
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>1</cacheflush>
+        <safesearch>0</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
         <enable_wpad>0</enable_wpad>
@@ -2880,15 +2881,19 @@ b7f0294f929601cf4503f38ce8a4a100
         <default_action>allow</default_action>
       </acls>
       <dnsbl>
-        <enabled>1</enabled>
-        <safesearch>0</safesearch>
-        <type>atf,oisd0,oisd1,oisd2,aa,blm,blp,blp0,pa,pt</type>
-        <lists>https://adaway.org/hosts.txt,https://big.oisd.nl/,https://nsfw.oisd.nl/</lists>
-        <whitelists/>
-        <blocklists/>
-        <wildcards/>
-        <address/>
-        <nxdomain>0</nxdomain>
+        <blocklist uuid="ae1ac85a-0bc8-4d13-9b3a-4934302c66c6">
+          <enabled>1</enabled>
+          <type>atf,oisd0,oisd1,oisd2</type>
+          <lists>https://adaway.org/hosts.txt,https://big.oisd.nl/,https://nsfw.oisd.nl/</lists>
+          <allowlists/>
+          <blocklists/>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>default</description>
+        </blocklist>
       </dnsbl>
       <forwarding>
         <enabled>0</enabled>
@@ -3648,6 +3653,15 @@ b7f0294f929601cf4503f38ce8a4a100
         <MinProtocol_DTLS/>
       </general>
     </trust>
+    <Hostwatch version="1.0.0" persisted_at="1775150678.71" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <openvpn>
     <openvpn-server>
