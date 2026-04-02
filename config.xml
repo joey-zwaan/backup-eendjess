@@ -1688,7 +1688,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@192.168.200.206</username>
     <description>/api/openvpn/export/download/c272ec8d-97ba-4b6b-834c-2eaf8d920db6/699d9023babd1/ made changes</description>
-    <time>1775154259.54</time>
+    <time>1775154267.63</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1775,7 +1775,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <VTIs/>
       <SPDs/>
     </Swanctl>
-    <OpenVPNExport version="0.0.1" persisted_at="1775154259.54" description="OpenVPN export presets">
+    <OpenVPNExport version="0.0.1" persisted_at="1775154267.63" description="OpenVPN export presets">
       <servers>
         <server uuid="26caa0dc-efb9-44cd-ad86-40843b628340">
           <vpnid>1</vpnid>
@@ -1828,7 +1828,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <server uuid="d5aab7a4-1ee3-45c8-8f6d-55638a88bc21">
           <vpnid>c272ec8d-97ba-4b6b-834c-2eaf8d920db6</vpnid>
           <hostname>2a02:1802:bf:3:be24:11ff:fe84:1fc2</hostname>
-          <template>ArchiveOpenVPN</template>
+          <template>PlainOpenVPN</template>
           <local_port>1194</local_port>
           <random_local_port>1</random_local_port>
           <validate_server_cn>1</validate_server_cn>
