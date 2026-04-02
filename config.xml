@@ -1688,7 +1688,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@192.168.200.206</username>
     <description>/vpn_openvpn_server.php made changes</description>
-    <time>1775152769.58</time>
+    <time>1775152787.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3715,33 +3715,7 @@ b7f0294f929601cf4503f38ce8a4a100
     <radvd version="1.0.0" persisted_at="1775151412.63" description="Radvd configuration"/>
   </OPNsense>
   <openvpn>
-    <openvpn-server>
-      <mode>server_tls_user</mode>
-      <protocol>UDP6</protocol>
-      <dev_mode>tun</dev_mode>
-      <local_port>1194</local_port>
-      <description>VPN CONNECTION</description>
-      <crypto>AES-256-GCM</crypto>
-      <digest>SHA256</digest>
-      <tunnel_network>10.10.8.0/24</tunnel_network>
-      <tunnel_networkv6>fd00:10:8::0/64</tunnel_networkv6>
-      <local_network>192.168.200.0/24,192.168.201.0/29</local_network>
-      <local_networkv6>2a02:1802:bf:1100::/64,2a02:1802:bf:1101::/64</local_networkv6>
-      <topology_subnet>yes</topology_subnet>
-      <dns_server1>192.168.200.99</dns_server1>
-      <netbios_ntype>0</netbios_ntype>
-      <verbosity_level>1</verbosity_level>
-      <tlsmode>auth</tlsmode>
-      <vpnid>1</vpnid>
-      <authmode>Local Database</authmode>
-      <interface>wan</interface>
-      <custom_options/>
-      <tls>Iw0KIyAyMDQ4IGJpdCBPcGVuVlBOIHN0YXRpYyBrZXkNCiMNCi0tLS0tQkVHSU4gT3BlblZQTiBTdGF0aWMga2V5IFYxLS0tLS0NCjI2ODBkNDI5YzA3ZDkxY2IzMGE2ZjNmMTllOWVmZDM5DQpmZmU2YTJkYzJmMDk1ZDJlMjY0YjY1Y2EyNWYzNjMwYg0KMGI4OWFkMDg2ZTNmZWRmOTc2MGY5NzcwNWVmYmM4OWYNCjJlMmM1ZDAyZDNkNzQwZDFlY2YzMDkxNThiNDgzOWE0DQozZWQyNjc0N2NhY2MxN2RiMjRiYmQ4NjNmZWMxZTNiYQ0KM2NjYzg3N2MxMmVlNWQ4ZWU3OWRkM2NkNjgyZDg1NTgNCjY3NDg0Mzc1YWViNjI2N2ExZTJjN2Q2MDc0NTNmNzgyDQo3NWIzZTIzZjFlMzg2OWY3ZGQ2N2ZhYjQ1ZTQxOWIxMQ0KZWRmMDZhMjQzNWY4NjhmYzJkMTYzNmZmNTg4NmE4MWMNCjQ1ODY0ZTk1NjU2YTMyYzZiOTA4YTJhNGI0ZDA3YjIzDQo5YzM4Yzk0NmE4NmY5ODM5OGNkZmYzNjYxNzI4NzNlYw0KMDkxNTg4NmQ1OTU2MjU2ZDlmNTU4MzQ3MTFlYzA4MzkNCjc5N2EwYTBlZWUxYzViMjQwNGQwNWNiZjZiMmU0NGIzDQpiN2YwMjk0ZjkyOTYwMWNmNDUwM2YzOGNlOGE0YTEwMA0KOTg0NGNkZThhZDQyM2M5MjhjNzNiZTM3MTMxYWQ4ZDQNCjM5YzdmZWY4MzJlYTliNTI3YmRlZGE3YWJjODliMjY5DQotLS0tLUVORCBPcGVuVlBOIFN0YXRpYyBrZXkgVjEtLS0tLQ0K</tls>
-      <caref>68ea5b53770fb</caref>
-      <crlref>690f799f99dab</crlref>
-      <certref>68ea60bd3a4f5</certref>
-      <cert_depth>1</cert_depth>
-    </openvpn-server>
+    <openvpn-server/>
     <openvpn-client/>
   </openvpn>
   <ifgroups version="1.0.0"/>
