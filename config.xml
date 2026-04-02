@@ -1658,8 +1658,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.10.9.2</username>
-    <description>/api/interfaces/vip_settings/set_item/62d6698f-5d77-4f34-95d4-0953e7dd0a45 made changes</description>
-    <time>1775088289.48</time>
+    <description>/api/core/hasync/set made changes</description>
+    <time>1775088403.92</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3930,17 +3930,18 @@ b7f0294f929601cf4503f38ce8a4a100
   <syslog>
     <preservelogs>1</preservelogs>
   </syslog>
-  <hasync version="1.0.2">
+  <hasync version="1.0.2" persisted_at="1775088403.92" description="HA sync">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
     <pfsyncinterface/>
     <pfsyncpeerip/>
     <pfsyncversion>1400</pfsyncversion>
-    <synchronizetoip/>
+    <pfsyncdefer>0</pfsyncdefer>
+    <synchronizetoip>192.168.202.99</synchronizetoip>
     <verifypeer>0</verifypeer>
-    <username/>
-    <password/>
-    <syncitems/>
+    <username>admin</username>
+    <password>duckduckgo</password>
+    <syncitems>aliases,authservers,captiveportal,certs,cron,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,quagga,suricata,ipsec,dhcpd,dhcpdv6,kea,monit,nat,syslog,netsnmp,ntpd,opendns,ssh,qemuguestagent,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui,wireguard,zabbixagent</syncitems>
   </hasync>
   <dnsmasq version="1.0.8" persisted_at="1763369498.99" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
