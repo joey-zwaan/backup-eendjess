@@ -874,6 +874,30 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </rule>
   </nat>
   <filter>
+    <rule uuid="de122bc5-69fd-4843-86f4-d108823f6d52">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1775156770.35</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1775156770.35</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="202bd0ba-b223-47c6-9d03-fb0327205520">
       <type>pass</type>
       <interface>lan</interface>
@@ -1113,30 +1137,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <created>
         <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
         <time>1760511535.386</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="de122bc5-69fd-4843-86f4-d108823f6d52">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>joey-admin@10.0.8.2</username>
-        <time>1775156770.35</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.0.8.2</username>
-        <time>1775156770.35</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -1681,8 +1681,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1775156770.56</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1775156778.51</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
