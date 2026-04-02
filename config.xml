@@ -468,6 +468,26 @@
       <descr/>
       <dashboard/>
     </user>
+    <user uuid="c2a643cc-264c-45c2-afc2-6b089b101361">
+      <uid>2004</uid>
+      <name>carp</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$nvtbE6cEZ4N7CnsrHvc1zuljknmS5UZ71CydJv2CWZYwPksCl7PUK</password>
+      <pwd_changed_at>1775156564.3684</pwd_changed_at>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv>page-all</priv>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
     <nextuid>2018</nextuid>
     <nextgid>2001</nextgid>
     <timezone>Europe/Brussels</timezone>
@@ -582,26 +602,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </git>
     </backup>
     <prefer_ipv4>1</prefer_ipv4>
-    <user uuid="c2a643cc-264c-45c2-afc2-6b089b101361">
-      <uid>2004</uid>
-      <name>carp</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$nvtbE6cEZ4N7CnsrHvc1zuljknmS5UZ71CydJv2CWZYwPksCl7PUK</password>
-      <pwd_changed_at>1775156564.3684</pwd_changed_at>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys/>
-      <priv>page-all</priv>
-      <language/>
-      <descr/>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <lan>
@@ -923,30 +923,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <created>
         <username>joey-admin@192.168.200.204</username>
         <time>1775057437.93</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="785ce47c-294c-4454-be33-fa60b5f49afa">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774973509.41</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774973509.41</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -1707,8 +1683,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>user "carp" created</description>
-    <time>1775156564.37</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1775156736.91</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
