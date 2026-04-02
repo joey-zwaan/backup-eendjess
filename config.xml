@@ -1687,8 +1687,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@192.168.200.206</username>
-    <description>/api/routes/routes/delroute/cde14826-d7d7-480b-96c6-aa60d057fa74 made changes</description>
-    <time>1775153974.78</time>
+    <description>/api/routing/settings/del_gateway/7acd9dd2-12eb-4c6e-91f2-6baf7c207865 made changes</description>
+    <time>1775153985.41</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3238,34 +3238,7 @@ b7f0294f929601cf4503f38ce8a4a100
         <routes/>
       </static>
     </quagga>
-    <Gateways version="1.0.0" persisted_at="1775081920.15" description="Gateways configuration">
-      <gateway_item uuid="7acd9dd2-12eb-4c6e-91f2-6baf7c207865">
-        <disabled>0</disabled>
-        <name>opnsense2</name>
-        <descr/>
-        <interface>lan</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.202.99</gateway>
-        <defaultgw>0</defaultgw>
-        <fargw>1</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>100</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-    </Gateways>
+    <Gateways version="1.0.0" persisted_at="1775153985.41" description="Gateways configuration"/>
     <AcmeClient version="4.3.0" persisted_at="1775081065.20" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
