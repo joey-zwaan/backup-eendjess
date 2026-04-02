@@ -1686,9 +1686,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>Leave CARP maintenance mode</description>
-    <time>1775156358.50</time>
+    <username>joey-admin@10.0.8.2</username>
+    <description>/api/core/hasync/set made changes</description>
+    <time>1775156426.71</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3985,7 +3985,7 @@ b7f0294f929601cf4503f38ce8a4a100
   <syslog>
     <preservelogs>1</preservelogs>
   </syslog>
-  <hasync version="1.0.2" persisted_at="1775156160.91" description="HA sync">
+  <hasync version="1.0.2" persisted_at="1775156426.71" description="HA sync">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
     <pfsyncinterface>lan</pfsyncinterface>
