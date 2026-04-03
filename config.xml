@@ -1617,8 +1617,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/api/firewall/alias/add_item/ made changes</description>
-    <time>1775243416.88</time>
+    <description>/api/firewall/alias/set_item/e42279de-d17e-463b-8134-d040bbebdaa7 made changes</description>
+    <time>1775243454.39</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1904,7 +1904,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1775243416.88" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1775243454.39" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -2394,13 +2394,14 @@ b7f0294f929601cf4503f38ce8a4a100
             <interface/>
             <counters>0</counters>
             <updatefreq/>
-            <content/>
+            <content>192.168.200.99
+2a02:1802:bf:1801:be24:11ff:fef5:9c92</content>
             <password/>
             <username/>
             <authtype/>
             <expire/>
             <categories/>
-            <description>CARP alias</description>
+            <description/>
           </alias>
         </aliases>
       </Alias>
