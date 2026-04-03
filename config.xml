@@ -610,9 +610,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <spoofmac/>
       <ipaddr>192.168.200.99</ipaddr>
       <subnet>24</subnet>
-      <ipaddrv6>track6</ipaddrv6>
-      <track6-interface>wan</track6-interface>
-      <track6-prefix-id>0</track6-prefix-id>
+      <ipaddrv6>idassoc6</ipaddrv6>
+      <track6-interface>opt4</track6-interface>
+      <track6-prefix-id>1</track6-prefix-id>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -1643,8 +1643,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1775241640.35</time>
+    <description>/interfaces.php made changes</description>
+    <time>1775242071.59</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
