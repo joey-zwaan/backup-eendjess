@@ -942,31 +942,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     </rule>
   </nat>
   <filter>
-    <rule uuid="de122bc5-69fd-4843-86f4-d108823f6d52">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>joey-admin@10.0.8.2</username>
-        <time>1775156770.35</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.0.8.2</username>
-        <time>1775156770.35</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
     <rule uuid="49b91539-bff6-4ac3-8fab-3ac189a24ead">
       <type>pass</type>
       <interface>lan</interface>
@@ -1020,35 +995,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <time>1760512615.0047</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-    </rule>
-    <rule uuid="83496103-b417-403c-860f-b4f26617ae65">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>ALLOW LDAP NAAR DC</descr>
-      <direction>in</direction>
-      <category>OpenVPN</category>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>DC</address>
-        <port>LDAPS</port>
-      </destination>
-      <updated>
-        <username>tymoadm@2a02:1802:bf:1100:79f3:6ccd:4a63:4a8b</username>
-        <time>1764600800.12</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.200.116</username>
-        <time>1760444925.0842</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="f79dcaaf-5539-4015-af04-9197876f9be8">
       <type>block</type>
@@ -1105,33 +1051,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <time>1760513227.3358</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-    </rule>
-    <rule uuid="fd604aa3-1165-4fde-a04d-b45fd80f16e8">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>PDC_domain_controller</address>
-        <port>123</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.10.8.4</username>
-        <time>1774728263.71</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>joey-admin@10.10.8.2</username>
-        <time>1773670291.41</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="ef43e534-3b68-4d82-a042-7cad62b76d20">
       <type>reject</type>
@@ -1699,7 +1618,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.0.8.2</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1775240098.43</time>
+    <time>1775240112.09</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
