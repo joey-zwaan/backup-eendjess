@@ -612,7 +612,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <subnet>24</subnet>
       <ipaddrv6>track6</ipaddrv6>
       <track6-interface>opt4</track6-interface>
-      <track6-prefix-id>0</track6-prefix-id>
+      <track6-prefix-id>23</track6-prefix-id>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -1717,7 +1717,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.0.8.2</username>
     <description>/interfaces.php made changes</description>
-    <time>1775247469.79</time>
+    <time>1775247680.63</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
