@@ -1104,6 +1104,33 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="05b1579b-effc-4f56-8acc-23e47de09d4f">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow gateway monitoring</descr>
+      <direction>in</direction>
+      <category>Ping Regels</category>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <address>opnsense2</address>
+      </source>
+      <destination>
+        <network>lanip</network>
+      </destination>
+      <updated>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1775242524.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1775242524.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="546c9747-7c46-4603-96e6-c40ac80a37dc">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -1643,8 +1670,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1775242430.03</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1775242524.94</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
