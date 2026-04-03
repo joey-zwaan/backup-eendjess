@@ -1643,8 +1643,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/interfaces.php made changes</description>
-    <time>1775242071.59</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1775242425.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1930,7 +1930,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1775239124.53" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1775242425.64" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -2392,6 +2392,24 @@ b7f0294f929601cf4503f38ce8a4a100
             <expire/>
             <categories/>
             <description>Proxmox 2</description>
+          </alias>
+          <alias uuid="149ed5a9-8de3-48be-a703-74070cba60df">
+            <enabled>1</enabled>
+            <name>opnsense2</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.200.100
+2a02:1802:bf:1710:be24:11ff:fe74:7513</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
           </alias>
         </aliases>
       </Alias>
