@@ -1652,8 +1652,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/system_general.php made changes</description>
-    <time>1775226116.81</time>
+    <description>/api/unbound/settings/set_host_override/16754740-b196-47cf-9739-57d9325b98fe made changes</description>
+    <time>1775226684.88</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2901,7 +2901,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.14" persisted_at="1775151789.80" description="Unbound configuration">
+    <unboundplus version="1.0.14" persisted_at="1775226684.87" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3064,7 +3064,7 @@ b7f0294f929601cf4503f38ce8a4a100
         <host uuid="16754740-b196-47cf-9739-57d9325b98fe">
           <enabled>1</enabled>
           <hostname>nextbox</hostname>
-          <domain>eendjesshop.Be</domain>
+          <domain>eendjesshop</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
