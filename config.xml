@@ -844,7 +844,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <not>0</not>
       </source>
       <destination>
-        <network>wanip</network>
+        <network>opt4ip</network>
         <port>80</port>
         <not>0</not>
       </destination>
@@ -866,9 +866,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <updated>
-        <username>stijn-admin@2a02:a03f:eacb:3200:5bc8:3ce2:42d7:d174</username>
-        <time>1774386390.51</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>joey-admin</username>
+        <time>1775227535.63</time>
+        <description>/api/api.php made changes</description>
       </updated>
     </rule>
     <rule uuid="26bd3954-6950-4f7f-b7d0-4951c28cd18f">
@@ -1640,8 +1640,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/api/firewall/d_nat/set_rule/73b544a9-4ce4-406a-b032-ddbfe8255969 made changes</description>
-    <time>1775227524.83</time>
+    <description>/api/firewall/d_nat/set_rule/8588fcc3-1b5f-44a8-af1c-010dd8558deb made changes</description>
+    <time>1775227535.63</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
