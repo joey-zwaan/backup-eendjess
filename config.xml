@@ -871,6 +871,46 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="26bd3954-6950-4f7f-b7d0-4951c28cd18f">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface/>
+      <ipprotocol>inet</ipprotocol>
+      <protocol>tcp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>opt4ip</network>
+        <port>443</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.201.4</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>webserver beschikbaar maken via ipv4/https</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
+      <created>
+        <username>joey-admin</username>
+        <time>1775227508.80</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>joey-admin</username>
+        <time>1775227508.80</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule uuid="de122bc5-69fd-4843-86f4-d108823f6d52">
@@ -1600,8 +1640,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1775227478.07</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1775227508.81</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
