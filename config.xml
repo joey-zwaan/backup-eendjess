@@ -1431,7 +1431,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <address>Webserver_proxy</address>
+        <address>reverse_proxy</address>
       </source>
       <destination>
         <address>vaultwarden</address>
@@ -1742,8 +1742,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1775391757.75</time>
+    <description>/api/firewall/alias/set_item/715cf51c-acf9-4bf6-9227-b5b5a5f678bf made changes</description>
+    <time>1775395073.27</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2029,7 +2029,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1775390089.67" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1775395073.27" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -2090,7 +2090,7 @@ b7f0294f929601cf4503f38ce8a4a100
           </alias>
           <alias uuid="715cf51c-acf9-4bf6-9227-b5b5a5f678bf">
             <enabled>1</enabled>
-            <name>Webserver_proxy</name>
+            <name>reverse_proxy</name>
             <type>host</type>
             <path_expression/>
             <proto/>
@@ -2103,8 +2103,8 @@ b7f0294f929601cf4503f38ce8a4a100
             <username/>
             <authtype/>
             <expire/>
-            <categories/>
-            <description>Webserver: Psyduck</description>
+            <categories>89c28b81-5935-429d-bc1f-b999ee2b3fb2</categories>
+            <description/>
           </alias>
           <alias uuid="946c13aa-fb44-4aca-8c05-a729c8f7e725">
             <enabled>1</enabled>
