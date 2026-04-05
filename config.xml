@@ -1429,7 +1429,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <interface>opt1</interface>
       <ipprotocol>inet46</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>vaultwarden</descr>
+      <descr>Toegang backend eendjesshop</descr>
       <direction>in</direction>
       <category>services</category>
       <quick>1</quick>
@@ -1443,7 +1443,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>joey-admin@10.0.8.2</username>
-        <time>1775395589.35</time>
+        <time>1775395626.67</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1722,7 +1722,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.0.8.2</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1775395589.61</time>
+    <time>1775395626.92</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
