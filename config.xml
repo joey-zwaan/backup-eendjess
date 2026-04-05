@@ -1715,8 +1715,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/api/unbound/settings/del_host_override/e18c3bb4-d580-4d0b-8556-58f37fc08083 made changes</description>
-    <time>1775388604.79</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1775388844.40</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3051,7 +3051,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.14" persisted_at="1775388604.79" description="Unbound configuration">
+    <unboundplus version="1.0.14" persisted_at="1775388844.40" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3236,6 +3236,19 @@ b7f0294f929601cf4503f38ce8a4a100
           <txtdata/>
           <addptr>1</addptr>
           <description/>
+        </host>
+        <host uuid="735f30cf-b630-4a35-a9aa-8018d6ba9346">
+          <enabled>1</enabled>
+          <hostname>vaultwarden</hostname>
+          <domain>eenjesshop.be</domain>
+          <rr>AAAA</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>2a02:1802:bf:1101::4</server>
+          <txtdata/>
+          <addptr>1</addptr>
+          <description>vaultwarden</description>
         </host>
       </hosts>
       <aliases/>
