@@ -1693,8 +1693,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>joey-admin@10.0.8.2</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1775395465.75</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1775395557.81</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -1980,7 +1980,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1775395076.43" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1775395557.81" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -2496,6 +2496,24 @@ b7f0294f929601cf4503f38ce8a4a100
             <authtype/>
             <expire/>
             <categories/>
+            <description/>
+          </alias>
+          <alias uuid="f03ec19e-3a0a-4202-b773-07e863f637bd">
+            <enabled>1</enabled>
+            <name>webserver_eendjesshop</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.200.198
+2a02:1802:bf:1100:cafe::198</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories>89c28b81-5935-429d-bc1f-b999ee2b3fb2</categories>
             <description/>
           </alias>
         </aliases>
