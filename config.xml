@@ -960,7 +960,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <poolopts/>
       <log>0</log>
       <category/>
-      <descr>webserver beschikbaar maken via ipv4/http</descr>
+      <descr>Mailserver beschikbaar maken via ipv4/http</descr>
       <tag/>
       <tagged/>
       <nosync>0</nosync>
@@ -974,7 +974,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </created>
       <updated>
         <username>kenneth-admin</username>
-        <time>1775684814.58</time>
+        <time>1775684841.98</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1789,8 +1789,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@10.0.8.4</username>
-    <description>/api/firewall/d_nat/toggle_rule/fa2790b0-35c0-4be0-a2dd-4b59246ea961 made changes</description>
-    <time>1775684821.90</time>
+    <description>/api/firewall/d_nat/set_rule/fa2790b0-35c0-4be0-a2dd-4b59246ea961 made changes</description>
+    <time>1775684841.98</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
