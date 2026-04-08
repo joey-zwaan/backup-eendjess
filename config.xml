@@ -1680,6 +1680,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="001ff28f-c87a-4efa-bd55-0368146cd20f">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>192.168.201.2/32</address>
+        <port>Internetsurfing</port>
+      </destination>
+      <updated>
+        <username>kenneth-admin@10.0.8.4</username>
+        <time>1775684967.31</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>kenneth-admin@10.0.8.4</username>
+        <time>1775684967.31</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="61095ea7-18bc-4d54-a74a-d4949d1f1867">
       <type>pass</type>
       <interface>opt4</interface>
@@ -1789,8 +1815,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>kenneth-admin@10.0.8.4</username>
-    <description>/api/firewall/d_nat/set_rule/fa2790b0-35c0-4be0-a2dd-4b59246ea961 made changes</description>
-    <time>1775684841.98</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1775684967.56</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
