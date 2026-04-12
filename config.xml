@@ -1790,7 +1790,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>joey-admin@10.0.8.2</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1775990148.41</time>
+    <time>1775990173.71</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3096,7 +3096,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.14" persisted_at="1775990148.41" description="Unbound configuration">
+    <unboundplus version="1.0.14" persisted_at="1775990173.71" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3317,6 +3317,19 @@ b7f0294f929601cf4503f38ce8a4a100
           <mx/>
           <ttl/>
           <server>192.168.200.17</server>
+          <txtdata/>
+          <addptr>1</addptr>
+          <description>zabbix https</description>
+        </host>
+        <host uuid="adc7b23f-9a8d-4721-9f41-a658218e29da">
+          <enabled>1</enabled>
+          <hostname>Zabbix</hostname>
+          <domain>eendjesshop.be</domain>
+          <rr>AAAA</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>2a02:1802:bf:1100:cafe::17</server>
           <txtdata/>
           <addptr>1</addptr>
           <description>zabbix https</description>
