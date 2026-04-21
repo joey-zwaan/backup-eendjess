@@ -632,8 +632,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <spoofmac/>
       <ipaddr>192.168.201.1</ipaddr>
       <subnet>29</subnet>
-      <ipaddrv6>2a02:1802:bf:1101::99</ipaddrv6>
-      <subnetv6>64</subnetv6>
+      <ipaddrv6>idassoc6</ipaddrv6>
+      <track6-interface>opt4</track6-interface>
+      <track6-prefix-id>1</track6-prefix-id>
     </opt1>
     <opt2>
       <if>ovpns1</if>
@@ -1815,9 +1816,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1776722405.99</time>
+    <username>joey-admin@10.0.8.2</username>
+    <description>/interfaces.php made changes</description>
+    <time>1776766416.97</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
