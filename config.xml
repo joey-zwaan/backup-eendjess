@@ -1662,15 +1662,18 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
+      <protocol>tcp/udp</protocol>
       <source>
         <network>opt1</network>
+        <port>MailPorts</port>
       </source>
       <destination>
         <network>opt1ip</network>
+        <port>MailPorts</port>
       </destination>
       <updated>
         <username>kenneth-admin@10.0.8.4</username>
-        <time>1776978261.57</time>
+        <time>1776978604.15</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1839,7 +1842,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>kenneth-admin@10.0.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1776978261.80</time>
+    <time>1776978604.35</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
