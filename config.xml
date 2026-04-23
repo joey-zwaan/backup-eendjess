@@ -1659,7 +1659,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>mail relay</descr>
-      <gateway>WAN_DHCP</gateway>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1671,7 +1670,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
       </destination>
       <updated>
         <username>kenneth-admin@10.0.8.4</username>
-        <time>1776978238.76</time>
+        <time>1776978261.57</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1840,7 +1839,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>kenneth-admin@10.0.8.4</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1776978239.08</time>
+    <time>1776978261.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
