@@ -1845,6 +1845,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="bff93f2e-5877-4504-9e52-ff55fe2915a2">
+      <type>pass</type>
+      <interface>opt5</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow CARP</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>carp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1777152797.14</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1777152797.14</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="e638a4d9-3b73-4440-bcbc-f3b46cc53ee1">
       <type>pass</type>
       <interface>opt5</interface>
@@ -1956,8 +1982,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@10.0.8.3</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1777152780.47</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1777152797.38</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
