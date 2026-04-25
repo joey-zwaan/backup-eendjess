@@ -1599,6 +1599,115 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="b9b0d1f1-463d-4408-9796-38f2bc4f4dc9">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>mail relay</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt1</network>
+        <port>MailPorts</port>
+      </source>
+      <destination>
+        <network>opt1ip</network>
+        <port>MailPorts</port>
+      </destination>
+      <updated>
+        <username>kenneth-admin@10.0.8.4</username>
+        <time>1776978604.15</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>kenneth-admin@10.0.8.4</username>
+        <time>1776978238.76</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="9190e9a8-ca02-49c1-93f5-189368744688">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Toelaten van internetverkeer | reverse zodat dmz niet naar lan kan.</descr>
+      <direction>in</direction>
+      <category>Internet Surfing</category>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <network>lan</network>
+        <not>1</not>
+        <port>Internetsurfing</port>
+      </destination>
+      <updated>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1775395465.52</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>tymoadm@192.168.200.141</username>
+        <time>1760535521.3205</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="860daf56-276c-4ef3-bb50-0c984b1ad113">
+      <type>reject</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default-Reject</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
+        <time>1760521832.6006</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
+        <time>1760521832.6006</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="f13215a7-4654-4ee5-9e11-bfff67787ccc">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>587</port>
+      </destination>
+      <updated>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1777144143.50</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>joey-admin@10.0.8.2</username>
+        <time>1777144143.50</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="2cf38d9c-81d2-446d-b515-4e28cbed1466">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1700,89 +1809,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="b9b0d1f1-463d-4408-9796-38f2bc4f4dc9">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>mail relay</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt1</network>
-        <port>MailPorts</port>
-      </source>
-      <destination>
-        <network>opt1ip</network>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>kenneth-admin@10.0.8.4</username>
-        <time>1776978604.15</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>kenneth-admin@10.0.8.4</username>
-        <time>1776978238.76</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="9190e9a8-ca02-49c1-93f5-189368744688">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Toelaten van internetverkeer | reverse zodat dmz niet naar lan kan.</descr>
-      <direction>in</direction>
-      <category>Internet Surfing</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <network>lan</network>
-        <not>1</not>
-        <port>Internetsurfing</port>
-      </destination>
-      <updated>
-        <username>joey-admin@10.0.8.2</username>
-        <time>1775395465.52</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>tymoadm@192.168.200.141</username>
-        <time>1760535521.3205</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="860daf56-276c-4ef3-bb50-0c984b1ad113">
-      <type>reject</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default-Reject</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
-        <time>1760521832.6006</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>maximadm@2a02:1802:bf:1700:d92d:4f6c:348b:f707</username>
-        <time>1760521832.6006</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1840,9 +1866,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>stijn-admin@10.0.8.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1777139333.22</time>
+    <username>joey-admin@10.0.8.2</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1777144143.73</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
