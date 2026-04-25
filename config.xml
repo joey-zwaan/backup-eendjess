@@ -1843,6 +1843,33 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="3cbdaf04-e23b-4314-9a46-0294f391a070">
+      <type>pass</type>
+      <interface>opt5</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow TCP on 443 for XMLRPC</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>opt5</network>
+      </source>
+      <destination>
+        <network>opt5</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1777152460.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1777152460.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1902,7 +1929,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>stijn-admin@10.0.8.3</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1777152401.60</time>
+    <time>1777152461.19</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
