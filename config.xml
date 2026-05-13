@@ -2064,8 +2064,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@10.0.8.3</username>
-    <description>/api/interfaces/vip_settings/set_item/439b3b19-0431-48fb-9dd7-90015fcbb48f made changes</description>
-    <time>1778681276.92</time>
+    <description>/api/interfaces/vip_settings/set_item/725e9bb0-1ec3-45fa-9ad2-f4347cdf015a made changes</description>
+    <time>1778681303.82</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -4436,7 +4436,7 @@ b7f0294f929601cf4503f38ce8a4a100
   <laggs version="1.0.0">
     <lagg/>
   </laggs>
-  <virtualip version="1.0.1" persisted_at="1778681276.92" description="Virtual IP configuration">
+  <virtualip version="1.0.1" persisted_at="1778681303.82" description="Virtual IP configuration">
     <vip uuid="62d6698f-5d77-4f34-95d4-0953e7dd0a45">
       <interface>lan</interface>
       <mode>carp</mode>
@@ -4508,7 +4508,7 @@ b7f0294f929601cf4503f38ce8a4a100
     <vip uuid="725e9bb0-1ec3-45fa-9ad2-f4347cdf015a">
       <interface>opt1</interface>
       <mode>carp</mode>
-      <subnet>2a02:1802:bf:1101::1:99</subnet>
+      <subnet>fe80::be24:11ff:feff:d988</subnet>
       <subnet_bits>64</subnet_bits>
       <gateway/>
       <noexpand>0</noexpand>
