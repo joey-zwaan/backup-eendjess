@@ -1039,6 +1039,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="0e473c79-539f-40a3-bba8-07e017117e44">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow PFSYNC</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>pfsync</protocol>
+      <source>
+        <address>opnsense2_LAN</address>
+      </source>
+      <destination>
+        <address>opnsense1_LAN</address>
+      </destination>
+      <updated>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1778673560.11</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1778673560.11</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="fdc9f79c-e6d1-475d-a683-1c7b0647298c">
       <type>pass</type>
       <interface>lan</interface>
@@ -2039,7 +2065,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>stijn-admin@10.0.8.3</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1778673326.78</time>
+    <time>1778673560.36</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
