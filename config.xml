@@ -1040,6 +1040,33 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="07a1af86-1fd9-47d4-92f4-81017b15877e">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow XMLRPC</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>opnsense2_LAN</address>
+      </source>
+      <destination>
+        <address>opnsense1_LAN</address>
+        <port>any-443</port>
+      </destination>
+      <updated>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1778696722.76</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>stijn-admin@10.0.8.3</username>
+        <time>1778696722.76</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="51b36c79-a3cc-4037-b6ab-1d06cbbb03fd">
       <type>pass</type>
       <interface>lan</interface>
@@ -2145,7 +2172,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>stijn-admin@10.0.8.3</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1778696699.54</time>
+    <time>1778696723.03</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
