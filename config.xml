@@ -1255,6 +1255,32 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="af39c7b5-1c25-4e77-a16d-74c11388c093">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>out</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>MailPorts</port>
+      </destination>
+      <updated>
+        <username>kenneth-admin@10.0.8.2</username>
+        <time>1778696039.37</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>kenneth-admin@10.0.8.2</username>
+        <time>1778696039.37</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="522b24a1-5898-4761-8373-c63243023f45">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -2063,9 +2089,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>stijn-admin@10.0.8.3</username>
-    <description>/api/interfaces/vip_settings/set_item/725e9bb0-1ec3-45fa-9ad2-f4347cdf015a made changes</description>
-    <time>1778681303.82</time>
+    <username>kenneth-admin@10.0.8.2</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1778696039.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
