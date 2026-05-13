@@ -1068,21 +1068,21 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <rule uuid="fdc9f79c-e6d1-475d-a683-1c7b0647298c">
       <type>pass</type>
       <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
+      <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Allow CARP</descr>
       <direction>in</direction>
       <quick>1</quick>
       <protocol>carp</protocol>
       <source>
-        <any>1</any>
+        <address>opnsense2_LAN,opnsense1_LAN</address>
       </source>
       <destination>
-        <any>1</any>
+        <address>224.0.0.18</address>
       </destination>
       <updated>
         <username>stijn-admin@10.0.8.3</username>
-        <time>1777152676.33</time>
+        <time>1778674510.98</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2065,7 +2065,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>stijn-admin@10.0.8.3</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1778673560.36</time>
+    <time>1778674511.22</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
