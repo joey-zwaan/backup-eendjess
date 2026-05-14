@@ -2173,8 +2173,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@10.0.8.3</username>
-    <description>/api/ids/settings/set made changes</description>
-    <time>1778787317.83</time>
+    <description>/api/ids/settings/toggle_rule/2000347,2000350,2000351,2000352,2000536,2000537,2000538,2000540,2000543,2000544,2000545,2000546,2000575,2001046,2001066,2001219,2001553,2001569,2001579,2001580,2001581,2001582,2001583,2001711,2001743,2001764,2001901,2001904,2001906,2001933,2001972,2002029,2002030,2002031,2002032,2002033,2002175,2002363,2002383,2002384,2002386,2002664,2002677,2002762,2002763,2002773,2002775,2002776,2002780,2002781/1 made changes</description>
+    <time>1778787637.76</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3120,7 +3120,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.2" persisted_at="1778787317.83" description="Intrusion detection">
+    <IDS version="1.1.2" persisted_at="1778787637.76" description="Intrusion detection">
       <rules>
         <rule uuid="94507f04-e510-404f-acf2-5ee7b2430713">
           <sid>2014893</sid>
@@ -3269,6 +3269,196 @@ b7f0294f929601cf4503f38ce8a4a100
         </rule>
         <rule uuid="b9ea2e79-880c-4639-ba87-513304f10b22">
           <sid>2023290</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="eaae69e5-0abf-4c4a-922c-3135ed49b331">
+          <sid>2000347</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="c24676d2-8204-47d6-aad0-f1ff408a985f">
+          <sid>2000350</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="b52f9465-2ee3-46a4-83e6-d328b782aa01">
+          <sid>2000351</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="a6093037-94f0-44ca-83e7-f1bece2204b4">
+          <sid>2000352</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="6c0bbdb2-4f66-4774-8ed2-8213c36061a6">
+          <sid>2000575</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="57b0158b-2d1a-4767-b4e0-946635b68984">
+          <sid>2001046</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="52c5fe6a-1b73-42bb-bc70-7c5ebec7e3e5">
+          <sid>2001066</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="0fde1008-0bb3-4f70-a8a4-7124c40a40a6">
+          <sid>2001219</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="f872ec75-8bc6-425b-8b02-938bab42dc93">
+          <sid>2001580</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="fed35521-2317-4a34-a9b5-57553f8ba351">
+          <sid>2001581</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="47728a6d-ab9b-4af0-902c-84754d4892a5">
+          <sid>2001582</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="b4bf53d6-b3a3-4ce7-87d6-6307c4ba5fd7">
+          <sid>2001583</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="b7bbefc7-73e9-4282-a310-efce3fd33b62">
+          <sid>2001711</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="6ad28519-afd3-4dde-afd1-ea2b23ca60f4">
+          <sid>2001743</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="1db4f099-a797-45bc-a4f3-d654308ec545">
+          <sid>2001764</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="45504eb9-6b2a-40c0-bab4-b483858b745a">
+          <sid>2001901</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="9532097b-bfca-4b46-9325-34c7ec7a7d0a">
+          <sid>2001906</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="a3d838ce-c706-40c2-9275-59ada3289ba9">
+          <sid>2001933</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="b8b3f810-49c0-4626-a765-ed906690c863">
+          <sid>2001972</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="20fab2b8-4ca5-42cb-a6a4-c9c73af0e8da">
+          <sid>2002029</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="0dbefa7b-faad-4d76-9717-eda3065a7786">
+          <sid>2002030</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="2cd736b6-bb22-4303-b304-358b5324ac86">
+          <sid>2002031</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="0f216c75-46e0-4bac-8b86-93ce3b4e448b">
+          <sid>2002032</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="11ccd83a-9b32-463e-9855-208619141fc4">
+          <sid>2002033</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="9b6423c1-e270-413c-85e3-0fb703124f01">
+          <sid>2002175</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="2ef18de4-7f66-4904-8895-3b38b4a09aed">
+          <sid>2002363</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="99474229-b572-4d8d-a206-e18cd02e7f74">
+          <sid>2002383</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="ab38a52a-62e3-4474-96a8-8d36cfa2ebd5">
+          <sid>2002384</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="5a003fde-4dfe-4f88-9792-99b2fd03c555">
+          <sid>2002386</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="c017a70b-5237-4621-86d1-90fb2dfbf768">
+          <sid>2002664</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="bcc6739f-d9e7-4dc3-9586-b281c1f87f07">
+          <sid>2002677</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="654870bf-9da1-43d5-badc-44586e5b26b7">
+          <sid>2002762</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="d02cbbf9-691e-4eb5-be9e-6c9b12eddb99">
+          <sid>2002763</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="24cc7e70-9c4f-4e44-ae3b-e92b88ec1ff2">
+          <sid>2002773</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="9ed75a0f-9914-4449-b507-1ed9e9442283">
+          <sid>2002775</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="844d34f6-8c23-4765-bfa0-590fe11bc882">
+          <sid>2002776</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="a86ed0d6-54b7-4d88-a4c0-6379af202c82">
+          <sid>2002780</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="2eb41015-fa7b-4e7a-a68c-a5381098ee9e">
+          <sid>2002781</sid>
           <enabled>1</enabled>
           <action>alert</action>
         </rule>
