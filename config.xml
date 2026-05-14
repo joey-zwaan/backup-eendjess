@@ -2173,8 +2173,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   </widgets>
   <revision>
     <username>stijn-admin@10.0.8.3</username>
-    <description>/api/ids/settings/toggle_rule/2015837 made changes</description>
-    <time>1778787018.71</time>
+    <description>/api/ids/settings/toggle_rule/2017296 made changes</description>
+    <time>1778787020.52</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -3120,7 +3120,7 @@ b7f0294f929601cf4503f38ce8a4a100
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.2" persisted_at="1778787018.71" description="Intrusion detection">
+    <IDS version="1.1.2" persisted_at="1778787020.52" description="Intrusion detection">
       <rules>
         <rule uuid="94507f04-e510-404f-acf2-5ee7b2430713">
           <sid>2014893</sid>
@@ -3214,6 +3214,11 @@ b7f0294f929601cf4503f38ce8a4a100
         </rule>
         <rule uuid="47fd5022-a410-4501-b79d-83c1af90db4c">
           <sid>2015837</sid>
+          <enabled>1</enabled>
+          <action>alert</action>
+        </rule>
+        <rule uuid="09215b8f-2106-4cff-a4ee-2eade4e694f4">
+          <sid>2017296</sid>
           <enabled>1</enabled>
           <action>alert</action>
         </rule>
