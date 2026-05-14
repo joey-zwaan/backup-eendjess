@@ -1661,35 +1661,6 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="689f61c1-3d2f-4fba-b7a8-918e4d94ef3b">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>mail relay</descr>
-      <direction>out</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>MailPorts</port>
-      </destination>
-      <updated>
-        <username>kenneth-admin@10.0.8.2</username>
-        <time>1778770438.67</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>kenneth-admin@10.0.8.2</username>
-        <time>1778770438.67</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
     <rule uuid="7e9a6273-f73d-4fa4-ac70-609ff5d1195c">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2172,9 +2143,9 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>stijn-admin@10.0.8.3</username>
-    <description>/api/ids/settings/toggle_rule/2000347,2000350,2000351,2000352,2000536,2000537,2000538,2000540,2000543,2000544,2000545,2000546,2000575,2001046,2001066,2001219,2001553,2001569,2001579,2001580,2001581,2001582,2001583,2001711,2001743,2001764,2001901,2001904,2001906,2001933,2001972,2002029,2002030,2002031,2002032,2002033,2002175,2002363,2002383,2002384,2002386,2002664,2002677,2002762,2002763,2002773,2002775,2002776,2002780,2002781/1 made changes</description>
-    <time>1778787641.55</time>
+    <username>kenneth-admin@10.0.8.2</username>
+    <description>/firewall_rules.php made changes</description>
+    <time>1778788331.49</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
