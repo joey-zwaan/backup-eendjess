@@ -2086,7 +2086,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
   <revision>
     <username>root@192.168.200.7</username>
     <description>/api/openvpn/instances/set/c272ec8d-97ba-4b6b-834c-2eaf8d920db6 made changes</description>
-    <time>1790341100.69</time>
+    <time>1790341309.53</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1763369499.53" description="IPsec settings">
@@ -2237,7 +2237,7 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
         </server>
       </servers>
     </OpenVPNExport>
-    <OpenVPN version="1.0.1" persisted_at="1790341100.69" description="OpenVPN">
+    <OpenVPN version="1.0.1" persisted_at="1790341309.53" description="OpenVPN">
       <Overwrites/>
       <Instances>
         <Instance uuid="c272ec8d-97ba-4b6b-834c-2eaf8d920db6">
@@ -2271,8 +2271,8 @@ eyfyws6qfHl5wqys5HP9AAAAGWpvZXlAam9leS1sZW5vdm8tdGhpbmtwYWQBAgME&#13;
           <data-ciphers/>
           <data-ciphers-fallback/>
           <tls_key/>
-          <authmode>AD-LDAP,Local Database</authmode>
-          <local_group>1999</local_group>
+          <authmode>AD-LDAP</authmode>
+          <local_group>2000</local_group>
           <various_flags/>
           <various_push_flags/>
           <push_inactive/>
